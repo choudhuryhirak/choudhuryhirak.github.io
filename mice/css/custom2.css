@@ -1,0 +1,222 @@
+/* your styles go here */
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
+{
+    
+    background-color: #202020;
+}
+
+
+
+html,body.home
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+
+p.super-paragraph, #bloglead
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    
+}
+
+p.lead
+{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+a
+{
+color: #616161;
+text-decoration: none;
+}
+
+a:hover
+{
+color: #d8b46a;
+
+}
+
+.grid
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+ 
+
+body.home
+{
+
+    background: url('../img/mice/cover.png');
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #242424;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+body.landing
+{
+
+    background: url('../img/mice/coverark.png');
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: whitesmoke;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#errorcover
+{
+    background: url('../img/mice/lost.png');
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;   
+    
+    
+    
+    
+    
+}
+
+
+
+
+#textlink
+{
+    color: #616161;
+    
+    
+}
+
+
+.post
+{
+
+  background-color: rgba(255,255,255,0.9);
+  padding-bottom: 10px;
+}
+
+.masonry-item
+{
+  padding: 20px;
+
+}
+
+.box-masonry-text > h4 > a
+{
+  color: black;
+
+
+}
+
+.box-masonry-text
+{
+  background-color: rgba(255,255,255,0.9);
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+
+.box-masonry-hover-text-header > h4 > a
+{
+  color: black;
+
+}
+
+.box-masonry-hover-text-header
+{
+  background-color: rgba(255,255,255,0.9);
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+.footer
+{
+
+    background-color: #ccc;
+    padding: 25px;
+}
+
+.footer > a
+{
+  color: black;
+}
+
+
+.footer > a:hover
+{
+  color: #d8b46a;
+}
+
+#lrbutton
+{   
+    
+    border-radius: 5px;
+    color: white;
+    background-color: #d8b46a;
+    
+    
+}
+
+#lrbutton:hover
+{   
+    
+    border-radius: 5px;
+    color: white;
+    background-color: #cbab65;
+    
+    
+}
+
+
+#lsbutton
+{   
+    border: solid 1px #d8b46a;
+    border-radius: 5px;
+    color: white;
+    background-color: #434343;
+}
+
+#lsbutton:hover
+{   
+    border: solid 1px #242424;
+    border-radius: 5px;
+    color: white;
+    background-color: #434343;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:450px)
+{
+    
+    .footer1, .footer2, .footer3
+    {
+        padding: 10%;
+        
+    }
+    
+    
+}
+

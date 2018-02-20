@@ -1,0 +1,418 @@
+/* your styles go here */
+
+/* */.navbar-nav > li > a 
+{
+    padding-top:5px !important; 
+    padding-bottom:5px !important;
+}
+
+
+.navbar 
+{
+    min-height:32px !important;
+        /*font-family: 'Source Sans Pro', sans-serif;*/
+    
+}
+
+
+
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fafafa;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover
+{
+    color: #d8b46a;
+    background-color: #242424;
+}
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
+{
+    
+    background-color: #202020;
+}
+
+#small_logo
+{
+    margin-top: 3%;
+}
+
+
+
+
+
+
+
+
+
+html,body
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #424242
+}
+
+
+
+p.lead
+{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+
+/*signin page*/
+
+.signin
+{
+    background-color: #242424;
+    height: 100%;
+    width: 100%;
+}
+
+#signinimg
+{
+    padding: 2%;
+    
+    
+}
+
+#signinimgbtn
+{
+    margin-top: 2%;
+    text-align: center;
+    
+}
+
+#linkedinbtn > a:active
+{
+    background: url('../img/mice/Sign-In-Small---Active.png');
+    
+    
+}
+
+#linkedinbtn > a:hover
+{
+    background: url('../img/mice/Sign-In-Small---Hover.png');
+    
+}
+
+p.calendar
+{
+    margin-top: -15px;
+    margin-left: -15px;    
+    
+}
+
+.overlay
+{
+    background:transparent; 
+   position:relative; 
+   width:400px;
+   height:400px; /* your iframe height */
+   top:400px;  /* your iframe height */
+   margin-top:-400px;  /* your iframe height */
+    
+    
+}
+
+
+
+
+.calendar {
+/*Calendar margin:.25em 10px 10px 0; */
+/*padding-top:5px;*/
+float:left;
+width:80px;
+background:#ededef;
+background:-webkit-gradient(linear,left top,left bottom,from(#ededef),to(#ccc));
+background:-moz-linear-gradient(top,#ededef,#ccc);
+font:bold 30px/60px Ubuntu,sans-serif;
+text-align:center;
+color:#000;
+text-shadow:#fff 0 1px 0;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+position:relative;
+-moz-box-shadow:0 2px 2px #888;
+-webkit-box-shadow:0 2px 2px #888;
+box-shadow:0 2px 2px #888
+}
+
+.calendar em {
+display:block;
+font:normal bold 11px/30px Ubuntu,sans-serif;
+color:#fff;
+text-shadow:#00365a 0 -1px 0;
+background:#04599a;
+background:-webkit-gradient(linear,left top,left bottom,from(#d8b46a),to(#c2a25f));
+background:-moz-linear-gradient(top,#d8b46a,#c2a25f);
+
+-webkit-border-bottom-right-radius:3px;
+border-bottom-right-radius:3px;
+
+-webkit-border-bottom-left-radius:3px;
+border-bottom-left-radius:3px;
+border-top:1px solid #00365a
+}
+
+.calendar:before,.calendar:after {
+content:'';
+float:left;
+position:absolute;
+top:5px;
+width:8px;
+height:8px;
+background:#111;
+z-index:1;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+-moz-box-shadow:0 1px 1px #fff;
+-webkit-box-shadow:0 1px 1px #fff;
+box-shadow:0 1px 1px #fff
+}
+
+.calendar:before {
+left:11px
+}
+
+.calendar:after {
+right:11px
+}
+
+.calendar em:before,.calendar em:after {
+content:'';
+float:left;
+position:absolute;
+top:-5px;
+width:4px;
+height:14px;
+background:#dadada;
+background:-webkit-gradient(linear,left top,left bottom,from(#f1f1f1),to(#aaa));
+background:-moz-linear-gradient(top,#f1f1f1,#aaa);
+z-index:2;
+-moz-border-radius:2px;
+-webkit-border-radius:2px;
+border-radius:2px
+}
+
+.calendar em:before {
+left:13px
+}
+
+.calendar em:after {
+right:13px
+}
+
+
+
+
+/*Calendar */
+
+
+/*ends here! */
+
+
+#accordion > .panel-default, .panel-heading
+{
+    border: none;
+    
+    
+}
+
+
+#tablecollapse > tbody > tr > td
+{
+    padding: 0px;
+    line-height: 0px;
+    border-top: none;
+    
+    
+}
+
+
+
+.footer
+{
+    
+    background-color: #e6e7e8;
+    padding: 25px;    
+}
+
+#primarycta
+{
+    color: #d8b46a;
+    border-color: #d8b46a;
+    background-color: #424242;
+    border-width: 2px;
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+
+#listitem
+{
+    border-style: none;
+    text-align: left;
+}
+
+img#brand_logo.img-responsive
+{
+    margin-left: 25px;    
+}
+
+.btn-default:hover, .btn-default:focus
+{
+  color:#d8b46a;
+  background-color:#424242;
+}
+
+
+#primarycta:hover
+{
+    background-color: #202020;
+    
+}
+
+
+.wrapper
+{
+    background: url('../img/mice/cover.png');
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+#wraptex
+{
+     background: url('../img/mice/coverark.png');
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    
+    
+}
+
+
+
+
+.toggle, .toggle-on, .toggle-off
+{
+    border-radius:1px;
+    
+}
+
+.social
+{
+text-align:center;
+
+}
+
+.sidebar-menu
+{
+    text-align: center;
+    
+}
+
+.sidebar-offcanvas
+{
+    background-color: #424242;
+    height: 100%;
+}
+
+ul.sidebar-menu
+{
+    margin-left: -40px;
+}
+
+#topbar
+{
+    background-color: #202020;
+    
+}
+
+.wrapper
+{
+ 
+    background-color: #fafafa;
+    
+}
+
+#header
+{
+ 
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+/* pagination links*/
+
+ul.pagination {
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;
+}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 0 4px;
+}
+
+ul.pagination li a.active {
+    border: #d8b46a;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 50px;
+}
+
+ul.pagination li a:hover:not(.active) 
+{
+    background-color: #fafafa;
+    border-style: solid;
+    border-width: thin;
+    border-color: #d8b46a;
+}
+
+@media(max-width:767px)
+{
+    
+    .footer1, .footer2, .footer3
+    {
+        padding: 10%;
+        
+    }
+    
+    #navbar.navbar-collapse.collapse.in
+{
+    background-color: #424242;
+    border-radius: 3px;    
+    
+}
+    .nav>li
+    {
+        display: block;
+        padding-bottom: 2%;
+        border-bottom: solid 1px #242424;
+    }
+    
+}
