@@ -13,36 +13,73 @@
             notes: $ax.pageData.page.notes
         };
 
+        var anns = [];
+        $ax('*').each(function (dObj, elementId) {
+            pushAnnotation(dObj, elementId);
+        });
+
+        function pushAnnotation(dObj, elementId) {
+            var ann = dObj.annotation;
+            if(ann) {
+                ann["id"] = elementId;
+                ann["label"] = dObj.label + " (" + dObj.friendlyType + ")";
+                anns.push(ann);
+            }
+
+            if(dObj.type == 'repeater') {
+                if(dObj.objects) {
+                    for(var i = 0, len = dObj.objects.length; i < len; i++) {
+                        pushAnnotation(dObj.objects[i]);
+                    }
+                }
+            }
+        }
+
+        pageData.widgetNotes = anns;
+
         //only trigger the page.data setting if the window is on the mainframe
+        var isMainFrame = false;
         try {
             if(window.name == 'mainFrame' ||
             (!CHROME_5_LOCAL && window.parent.$ && window.parent.$('#mainFrame').length > 0)) {
-                $axure.messageCenter = $axure.messageCenter;
+                isMainFrame = true;
+
+                $ax.messageCenter.addMessageListener(function(message, data) {
+                    if(message == 'finishInit') {
+                        _processTempInit();
+                    }
+                });
+
                 $axure.messageCenter.setState('page.data', pageData);
+                window.focus();
             }
-        } catch(e) {}
+        } catch(e) { }
 
-        //        $ax(function(diagramObject) {
-        //            return diagramObject.style.opacity && !diagramObject.isContained;
-        //        }).each(function(diagramObject, elementId) {
-        //            $ax.style.applyOpacityFromStyle(elementId, diagramObject.style);
-        //        });
-
-        var start = (new Date()).getTime();
-        var end = (new Date()).getTime();
-        //window.alert('elapsed ' + (end - start));
-
-        $('input[type=text], input[type=password], textarea').focus(function() {
-            window.lastFocusedControl = this;
+        //attach here for chrome local
+        $(window).load(function() {
+            $ax.style.initializeObjectTextAlignment($ax('*'));
         });
+
+        if(!isMainFrame) _processTempInit();
+    });
+
+
+    var _processTempInit = function() {
+        //var start = (new Date()).getTime();
+        //var end = (new Date()).getTime();
+        //window.alert('elapsed ' + (end - start));
 
         $('iframe').each(function() {
             var origSrc = $(this).attr('basesrc');
 
+            var $this = $(this);
             if(origSrc) {
                 var newSrcUrl = origSrc.toLowerCase().indexOf('http://') == -1 ? $ax.globalVariableProvider.getLinkUrl(origSrc) : origSrc;
+                $this.attr('src', newSrcUrl);
+            }
 
-                $(this).attr('src', newSrcUrl);
+            if(IOS) {
+                $this.parent().css('overflow', 'auto').css('-webkit-overflow-scrolling', 'touch').css('-ms-overflow-x', 'hidden').css('overflow-x', 'hidden');
             }
         });
 
@@ -52,10 +89,12 @@
             }
         });
 
-        var lastFocusedClickable;
+        window.lastFocusedClickable = null;
+        var _lastFocusedClickableSelector = 'div[tabIndex=0], img[tabIndex=0], input, a';
         var shouldOutline = true;
 
-        $ax(function(dObj) { return dObj.tabbable; }).each(function(dObj, elementId) {
+        $ax(function (dObj) { return dObj.tabbable; }).each(function (dObj, elementId) {
+            if ($ax.public.fn.IsLayer(dObj.type)) $ax.event.layerMapFocus(dObj, elementId);
             var focusableId = $ax.event.getFocusableWidgetOrChildId(elementId);
             $('#' + focusableId).attr("tabIndex", 0);
         });
@@ -68,23 +107,23 @@
             shouldOutline = true;
         });
 
-        $('div[tabIndex=0], img[tabIndex=0], a').focus(function() {
+        $(_lastFocusedClickableSelector).focus(function () {
             if(shouldOutline) {
                 $(this).css('outline', '');
             } else {
                 $(this).css('outline', 'none');
             }
 
-            lastFocusedClickable = this;
+            window.lastFocusedClickable = this;
         });
 
-        $('div[tabIndex=0], img[tabIndex=0], a').blur(function() {
-            if(lastFocusedClickable == this) lastFocusedClickable = null;
+        $(_lastFocusedClickableSelector).blur(function () {
+            if(window.lastFocusedClickable == this) window.lastFocusedClickable = null;
         });
 
         $(window.document).bind('keyup', function(e) {
             if(e.keyCode == '13' || e.keyCode == '32') {
-                if(lastFocusedClickable) $(lastFocusedClickable).click();
+                if(window.lastFocusedClickable) $(window.lastFocusedClickable).click();
             }
         });
 
@@ -96,10 +135,6 @@
             });
         }
 
-        $(window).load(function() {
-            $ax.style.initializeObjectTextAlignment($ax('*'));
-        });
-
         if($ax.document.configuration.preventScroll) {
             $(window.document).bind('touchmove', function(e) {
                 var inScrollable = $ax.legacy.GetScrollable(e.target) != window.document.body;
@@ -109,7 +144,7 @@
             });
 
             $ax(function(diagramObject) {
-                return diagramObject.type == 'dynamicPanel' && diagramObject.scrollbars != 'none';
+                return $ax.public.fn.IsDynamicPanel(diagramObject.type) && diagramObject.scrollbars != 'none';
             }).$().children().bind('touchstart', function() {
                 var target = this;
                 var top = target.scrollTop;
@@ -120,7 +155,7 @@
 
         if(OS_MAC && WEBKIT) {
             $ax(function(diagramObject) {
-                return diagramObject.type == 'comboBox';
+                return $ax.public.fn.IsComboBox(diagramObject.type);
             }).each(function(obj, id) {
                 $jobj($ax.INPUT(id)).css('-webkit-appearance', 'menulist-button').css('border-color', '#999999');
             });
@@ -130,17 +165,22 @@
         $ax.event.initialize();
         $ax.style.initialize();
         $ax.visibility.initialize();
+        $ax.repeater.initialize();
         $ax.dynamicPanelManager.initialize(); //needs to be called after visibility is initialized
         $ax.adaptive.initialize();
         $ax.loadDynamicPanelsAndMasters();
         $ax.adaptive.loadFinished();
-        $ax.repeater.init();
+        var start = (new Date()).getTime();
+        $ax.repeater.initRefresh();
+        var end = (new Date()).getTime();
+        console.log('loadTime: ' + (end - start) / 1000);
         $ax.style.prefetch();
 
-        var readyEnd = (new Date()).getTime();
-        //window.alert('elapsed ' + (readyEnd - readyStart));
-    });
+        $(window).resize();
 
+        //var readyEnd = (new Date()).getTime();
+        //window.alert('elapsed ' + (readyEnd - readyStart));
+    };
 });
 
 /* extend canvas */

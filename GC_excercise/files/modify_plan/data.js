@@ -1,36 +1,7 @@
-﻿$axure.loadCurrentPage({
-  "url":"modify_plan.html",
-  "generationDate":new Date(1520018789475.46),
-  "isCanvasEnabled":false,
-  "variables":["OnLoadVariable"],
-  "page":{
-    "packageId":"dd754cfd0e3e4f259e1c76a8f733984b",
-    "type":"Axure:Page",
-    "name":"Modify Plan",
-    "notes":{
-},
-    "style":{
-      "baseStyle":"627587b6038d43cca051c114ac41ad32",
-      "pageAlignment":"near",
-      "fill":{
-        "fillType":"solid",
-        "color":0xFFFFFFFF},
-      "image":null,
-      "imageHorizontalAlignment":"near",
-      "imageVerticalAlignment":"near",
-      "imageRepeat":"auto",
-      "favicon":null,
-      "sketchFactor":"0",
-      "colorStyle":"appliedColor",
-      "fontName":"Applied Font",
-      "borderWidth":"0"},
-    "adaptiveStyles":{
-},
-    "interactionMap":{
-},
-    "diagram":{
-      "objects":[]}},
-  "masters":{
-},
-  "objectPaths":{
-}});
+﻿$axure.loadCurrentPage(
+(function() {
+    var _ = function() { var r={},a=arguments; for(var i=0; i<a.length; i+=2) r[a[i]]=a[i+1]; return r; }
+    var _creator = function() { return _(b,c,d,e,f,g,h,g,i,[j],k,_(l,m,n,o,p,q,r,_(),s,_(t,u,v,w,x,_(y,z,A,B),C,null,D,w,E,w,F,G,H,null,I,J,K,L,M,N,O,J),P,_(),Q,_(),R,_(S,[])),T,_(),U,_());}; 
+var b="url",c="modify_plan.html",d="generationDate",e=new Date(1520143796250.53),f="isCanvasEnabled",g=false,h="isAdaptiveEnabled",i="variables",j="OnLoadVariable",k="page",l="packageId",m="dd754cfd0e3e4f259e1c76a8f733984b",n="type",o="Axure:Page",p="name",q="Modify Plan",r="notes",s="style",t="baseStyle",u="627587b6038d43cca051c114ac41ad32",v="pageAlignment",w="near",x="fill",y="fillType",z="solid",A="color",B=0xFFFFFFFF,C="image",D="imageHorizontalAlignment",E="imageVerticalAlignment",F="imageRepeat",G="auto",H="favicon",I="sketchFactor",J="0",K="colorStyle",L="appliedColor",M="fontName",N="Applied Font",O="borderWidth",P="adaptiveStyles",Q="interactionMap",R="diagram",S="objects",T="masters",U="objectPaths";
+return _creator();
+})());
