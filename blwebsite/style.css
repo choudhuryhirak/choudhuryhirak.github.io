@@ -771,7 +771,7 @@ input:-webkit-autofill:focus {
     overflow: hidden;
     border-radius: 5px;
     -webkit-box-shadow: 10px 15px 50px -10px rgba(0, 0, 0, 0.1);
-    box-shadow: 10px 15px 50px -10px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 15px 50px -10px rgba(0, 0, 0, 0.2);
 
 }
 
