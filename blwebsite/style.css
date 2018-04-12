@@ -830,7 +830,7 @@ input:-webkit-autofill:focus {
 }
 
 .side-icon-box a {
-    color: #ffffff;
+    color: #7e88d0;
 }
 
 .side-icon-box .side-icon {
@@ -880,6 +880,102 @@ input:-webkit-autofill:focus {
 .form-double input:last-child {
     float: right;
 }
+
+
+
+
+/*New ids*/
+
+
+#dotitle
+{
+ color: white;
+ font-size: 50px;
+    
+}
+
+#dt
+{
+   font-size: 50px;
+}
+
+
+#dwcopy
+{
+    font-size: 20px;
+}
+
+#dw
+{
+    padding-bottom: 2%;
+    padding-left: 15%;
+}
+
+#healtht
+{
+    padding: 2%;
+    font-size: 20px;
+}
+
+#solutionst
+{
+    font-size: 50px;
+}
+
+
+#VCtitle
+{
+    font-size: 30px;
+}
+
+#adhd
+{
+    max-width: 150px;
+    padding-bottom: 10%;
+    
+}
+
+#VCbeliever
+{
+    font-size: 20px;
+
+}
+
+#copyprocess
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 1.15em;
+    padding-right: 25%;
+    padding-left: 25%;
+    
+}
+
+#copyprocesss
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+    
+}
+
+#logo-row
+{
+    padding-top: 2%;
+    padding-bottom; 2%;
+    padding-right: 25%;
+    padding-left: 25%;
+    
+}
+
+
+#
+
+
+
+
+
 
 /*-----------
 preloader
