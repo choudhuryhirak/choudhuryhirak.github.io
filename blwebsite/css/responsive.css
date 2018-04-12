@@ -166,11 +166,24 @@
     padding-left: 5px;
     
 }
+
+    #workedw
+{
+    font-size: 30px;
+    color: #272E59;
+    
+}
     
     
+.single-blog .blog-content {
+    padding: 15px 15px;
+    background-color: #ffffff
+}
     
-    
-    
+.blog-content > p
+    {
+        font-size: 16px;
+    }
     
     
     
