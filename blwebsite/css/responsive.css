@@ -91,6 +91,37 @@
     .mainmenu-area .logo {
         margin-left: 15px;
     }
+    
+    #titletag
+    {
+        font-size: 30px;
+        padding-bottom: 15%;
+    }
+    
+    #dotitle
+    {
+        font-size:30px;
+    }
+    
+    #dt
+    {
+        font-size: 50px;
+    }
+    
+    #ctitle
+    {
+        font-size: 25px;            
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
 
 

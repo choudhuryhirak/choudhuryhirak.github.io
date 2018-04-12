@@ -886,6 +886,24 @@ input:-webkit-autofill:focus {
 
 /*New ids*/
 
+#titletag
+{
+    
+    font-size: 50px;
+    
+}
+
+
+#ctitle
+{
+    font-size: 30px;
+    
+    
+}
+
+
+
+
 
 #dotitle
 {
@@ -969,8 +987,40 @@ input:-webkit-autofill:focus {
     
 }
 
+#aboutinfo
+{
+    font-size: 18px;
 
-#
+}
+
+
+
+#contactt
+{
+       color: white;
+}
+
+#add
+{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
