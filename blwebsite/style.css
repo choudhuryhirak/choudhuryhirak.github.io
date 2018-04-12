@@ -1006,7 +1006,52 @@ input:-webkit-autofill:focus {
 }
 
 
+#taoofsix
+{
+    font-size: 50px; 
+    color: white;
+    
+    
+}
 
+.dt
+{
+    font-size: 50px;
+}
+
+#dw
+{
+    padding-bottom: 2%;
+    padding-left: 15%;
+}
+
+#dwcopy
+{
+    font-size: 20px;
+    
+}
+
+#dwicon
+{
+    padding-bottom: 2%;
+    padding-left: 15%;
+    
+    
+}
+
+#whyus
+{
+    background-color: #E6ECFF;
+}
+
+
+
+#services
+{
+    background-color: #E6ECFF;
+    
+    
+}
 
 
 
