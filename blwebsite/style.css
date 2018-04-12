@@ -372,7 +372,9 @@ input:-webkit-autofill:focus {
 #howdo
 {
     
-    background: url(images/backgoumd_bulbv1.png)
+    background: url(images/backgoumd_bulbv1.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
