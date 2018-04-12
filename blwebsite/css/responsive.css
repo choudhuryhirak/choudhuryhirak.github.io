@@ -128,7 +128,7 @@
 
     #dwcopy
     {
-        font-size: 20px;
+        font-size: 15px;
         
     }
     
@@ -138,8 +138,37 @@
         padding-bottom: 2%;
         padding-left: 2%;
     
-    
     }
+    
+    #solutionst
+    {
+        font-size: 40px;
+        
+    }
+    
+    #cm
+    {
+        font-size: 25px;
+    }
+    
+    #VCtitle
+    {
+        font-size: 23px;
+    }
+    
+    #copyprocess
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: left;
+    font-size: 1.15em;
+    padding-right: 5px;
+    padding-left: 5px;
+    
+}
+    
+    
+    
     
     
     
