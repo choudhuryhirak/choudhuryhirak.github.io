@@ -182,7 +182,7 @@
     
 .blog-content > p
     {
-        font-size: 16px;
+        font-size: 17px;
     }
     
 
@@ -215,11 +215,25 @@
 
 #caro
 {
-    height: 600px;
+   height: 600px;
     
 }
 
+#VCtitle
+
+{
+    font-size: 20px;        
+}
     
+#VCbeliever
+    {
+        font-size: 17px;
+    }
+    
+#copypcopy
+{
+    font-size: 17px;
+}
 
     
     
