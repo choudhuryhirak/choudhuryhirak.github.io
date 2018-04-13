@@ -1014,6 +1014,30 @@ input:-webkit-autofill:focus {
     
 }
 
+#teamimg, #globeimg
+{
+    max-width: 80px;
+    
+    
+}
+
+
+
+#acctitle
+    {
+        text-align: center;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        font-weight: 800;
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
 .dt
 {
     font-size: 50px;
@@ -1044,12 +1068,10 @@ input:-webkit-autofill:focus {
 {
     max-width: 120px;
     padding-left: 0%;
-    }
-    
 
-    
-    
 }
+ 
+
 
 
 
