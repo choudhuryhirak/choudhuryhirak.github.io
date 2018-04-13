@@ -195,21 +195,32 @@
     
 }    
 
-#dwicon > div > img
+#dwimg
 
 {
     max-width: 60px;
-    padding-left: 7%;
-    }
-    
-#healtht
-    
-    {
-        font-size: 17px;
-        margin-left: 5%;
-    }
+    margin-left: 0;
+
+}
     
     
+.section-padding
+
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+        
+}
+    
+
+#caro
+{
+    height: 600px;
+    
+}
+
+    
+
     
     
 }
