@@ -948,7 +948,7 @@ input:-webkit-autofill:focus {
 
 #adhd
 {
-    max-width: 150px;
+    max-width: 220px;
     padding-bottom: 10%;
     
 }
@@ -965,8 +965,8 @@ input:-webkit-autofill:focus {
     padding-bottom: 2%;
     text-align: center;
     font-size: 1.15em;
-    padding-right: 25%;
-    padding-left: 25%;
+    padding-right: 15%;
+    padding-left: 15%;
     
 }
 
