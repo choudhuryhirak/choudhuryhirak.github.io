@@ -71,8 +71,6 @@ h6 {
 
 html,
 body {
-    height: 100%;
-    width: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
@@ -304,6 +302,8 @@ input:-webkit-autofill:focus {
     z-index: 9999999;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+   
+    
 }
 
 .overlay,
@@ -363,6 +363,21 @@ input:-webkit-autofill:focus {
 .mainmenu-area.affix {
     background-color: #47539f;
 }
+
+.affix {
+  top: 0;
+  width: 100%;
+}
+
+.affix-top {
+  width: 100%;
+}
+
+.affix-bottom {
+  position: absolute;
+  width: 100%;  
+}
+
 
 
 
