@@ -4,7 +4,7 @@ $(document).ready(function(){
     
     var controller = new ScrollMagic.Controller();
     
-    $('.section').each(function(){
+    $('.angle-bg sky-bg section-padding').each(function(){
         
         var mainScene = new ScrollMagic.Scene({
             triggerElement: this.children[0],
@@ -13,6 +13,18 @@ $(document).ready(function(){
             
         })
         .setClassToggle(this, 'fade-in')
+        .addIndicators(
+            {
+                name: 'fade scene',
+                colorTrigger: 'black',
+                colorStart: 'orange',
+                colo00000rEnd: 'indigo'
+
+            })
+        
+        
+        
+        
         .addTo(controller);
         
         
