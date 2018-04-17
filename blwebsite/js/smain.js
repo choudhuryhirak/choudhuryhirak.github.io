@@ -36,16 +36,16 @@ $(document).ready(function(){
     
     var animatein = new TimelineMax();
     animatein
-    .from('#dotitle', 0.8, {autoAlpha:0, ease:Power1.easeIn},0.8)
-    .from('#tsstyle', 0.6, {autoAlpha:0, ease:Power2.easeIn},0.6)
-    .from('#taoofsixtitle', 0.5, {autoAlpha:0, ease:Power3.easeNone},0.5)
-    .from('#bulb img', 0.4, {autoAlpha: 0, ease:Power4.easeNone}, 0.4);
+    .from('#dotitle', 0.8, {autoAlpha:0, ease:Power1.easeIn},0.2)
+    .from('#tsstyle', 0.6, {autoAlpha:0, ease:Power2.easeIn},0.4)
+    .from('#taoofsixtitle', 0.5, {autoAlpha:0, ease:Power3.easeNone},0.6)
+    .from('#bulb img',2, {scaleX:0,scaleY:0},0.8);
     
     
     var bulbScene = new ScrollMagic.Scene({
         triggerElement: '#bulb',
         triggerHook: 0.8,
-        duration: '30%'
+        
         
     })
     .setTween(animatein)
