@@ -1177,7 +1177,15 @@ input:-webkit-autofill:focus {
     
 }
 
-#taoofsix
+#taoofsix1
+{
+    color:white; 
+    font-size:16px;
+    padding: 5%;
+  
+}
+
+#taoofsix2
 {
     color:white; 
     font-size:16px;

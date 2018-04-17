@@ -39,7 +39,9 @@ $(document).ready(function(){
     .from('#dotitle', 0.8, {autoAlpha:0, ease:Power1.easeIn},0.2)
     .from('#tsstyle', 0.6, {autoAlpha:0, ease:Power2.easeIn},0.4)
     .from('#taoofsixtitle', 0.5, {autoAlpha:0, ease:Power3.easeNone},0.6)
-    .from('#bulb img',2, {scaleX:0,scaleY:0},0.8);
+    .from('#bulb img', 2, {scaleX:0,scaleY:0},0.8)
+    .from('#taoofsix1', 2, {scaleX:0,scaleY:0},0.8)
+    .from('#taoofsix2', 2, {scaleX:0,scaleY:0},0.8);
     
     
     var bulbScene = new ScrollMagic.Scene({
