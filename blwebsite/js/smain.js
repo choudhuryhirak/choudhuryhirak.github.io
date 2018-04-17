@@ -36,12 +36,14 @@ $(document).ready(function(){
     
     var animatein = new TimelineMax();
     animatein
-    .from('#dotitle', 0.8, {autoAlpha:0, ease:Power1.easeIn},0.2)
-    .from('#tsstyle', 0.6, {autoAlpha:0, ease:Power2.easeIn},0.4)
-    .from('#taoofsixtitle', 0.5, {autoAlpha:0, ease:Power3.easeNone},0.6)
-    .from('#bulb img', 2, {scaleX:0,scaleY:0},0.8)
-    .from('#taoofsix1', 0.6, {autoAlpha:0, x:"-100%",y:"0"},1.4)
-    .from('#taoofsix2', 0.6, {autoAlpha:0, x:"-50%",y:"0"},1.6);
+    .from('#bulb img', 0.2, {scaleX:0,scaleY:0},0.2)
+    .from('#howdo', 0.4, {autoAlpha:0, ease:Power4.easeIn}, 0.4)
+    .from('#dotitle', 0.8, {autoAlpha:0, ease:Power1.easeIn},0.8)
+    .from('#tsstyle', 1, {autoAlpha:0, ease:Power2.easeIn},1)
+    .from('#taoofsixtitle', 1.2, {autoAlpha:0, ease:Power3.easeNone},1.2)
+    
+    .from('#taoofsix1', 0.6, {autoAlpha:0, x:"-100%",y:"0"},2)
+    .from('#taoofsix2', 0.6, {autoAlpha:0, x:"-50%",y:"0"},2);
     
     
     var bulbScene = new ScrollMagic.Scene({
@@ -74,6 +76,29 @@ $(document).ready(function(){
     .addTo(controller1);
     
     //build a scene
+    
+    
+    var controller3 = new ScrollMagic.Controller();
+    var animatein3 = new TimelineMax();
+    animatein3
+    .from('#solutionst', 0.6, {autoAlpha:0, x:"0", y:"80%"}, 0.4)
+    .from('#styleimg2', 0.6, {autoAlpha:0, ease:Power1.easeIn},0.4)
+    .from('.single-blog', 1.2, {autoAlpha:0, x:"0", y:"80%"}, 0.8)
+    ;
+    
+    
+    
+    
+    
+    
+    var ourSolScene = new ScrollMagic.Scene({
+        triggerElement:'#services',
+        triggerHook: 0.8
+        
+    })
+    .setTween(animatein3)
+    .addTo(controller3);
+    
     
      
     
