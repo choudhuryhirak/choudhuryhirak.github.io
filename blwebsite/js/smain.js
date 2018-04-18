@@ -53,12 +53,6 @@ $(document).ready(function(){
         
     })
     .setTween(animatein)
-    .addIndicators({
-		name: 'fade scene',
-		colorTrigger: 'black',
-		colorStart: '#75C695',
-		colorEnd: 'pink'
-	})
     .addTo(controller1);
     
     
@@ -79,12 +73,6 @@ $(document).ready(function(){
         triggerHook: 0.2
     })
     .setTween(animatein2)
-    .addIndicators({
-		name: 'fade scene2',
-		colorTrigger: 'black',
-		colorStart: '#75C695',
-		colorEnd: 'pink'
-	})
     .addTo(controller1);
     
     //build a scene
@@ -107,12 +95,6 @@ $(document).ready(function(){
         
     })
     .setTween(animatein3)
-    .addIndicators({
-		name: 'fade scene3',
-		colorTrigger: 'black',
-		colorStart: '#75C695',
-		colorEnd: 'pink'
-	})
     .addTo(controller3);
     
     
@@ -218,12 +200,6 @@ $(document).ready(function(){
         
     })
     .setTween(animatein7)
-    .addIndicators({
-		name: 'fade scene3',
-		colorTrigger: 'lilac',
-		colorStart: '#75C695',
-		colorEnd: 'magenta'
-	})
     .addTo(controller7);
     
     
