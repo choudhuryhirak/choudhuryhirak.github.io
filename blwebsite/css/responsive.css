@@ -177,7 +177,7 @@
         font-size: 23px;
     }
     
-    #copyprocess
+    #copyprocess1
 {
     padding-top: 2%;
     padding-bottom: 2%;
@@ -187,6 +187,31 @@
     padding-left: 5px;
     
 }
+    
+    
+    #copyprocess2
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: left;
+    font-size: 1.15em;
+    padding-right: 5px;
+    padding-left: 5px;
+    
+}
+    
+    
+    #copyprocess3
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: left;
+    font-size: 1.15em;
+    padding-right: 5px;
+    padding-left: 5px;
+    
+}
+    
     
     
 #accordion .panel .panel-collapse {
@@ -270,9 +295,9 @@
     }
     
 #copypcopy
-{
-    font-size: 17px;
-}
+    {
+        font-size: 17px;
+    }
     
 #acctitle
     {
@@ -292,9 +317,6 @@
     font-size:16px;
     padding: 5%;
     
-    
-
-
 }
     
     

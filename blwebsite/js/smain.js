@@ -76,7 +76,7 @@ $(document).ready(function(){
     
     var whyusScene = new ScrollMagic.Scene({
         triggerElement: '#whyus',
-        triggerHook: 0.6
+        triggerHook: 0.2
     })
     .setTween(animatein2)
     .addIndicators({
@@ -96,16 +96,14 @@ $(document).ready(function(){
     .from('#solutionst', 0.6, {autoAlpha:0, x:"0", y:"80%"}, 0.4)
     .from('#styleimg2', 0.6, {autoAlpha:0, ease:Power1.easeIn},0.4)
     .from('.single-blog', 1.2, {autoAlpha:0, x:"0", y:"80%"}, 0.8)
-    .from('')
+    //.from('.blog-photo', 0.8, {autoAlpha:0, ScaleX:0, ScaleY:0}, 1.6)
+    .from('.blog-content', 0.6, {autoAlpha:0, x:'0', y:'80%'}, 0.8)
     ;
-    
-    
-    
     
     
     var ourSolScene = new ScrollMagic.Scene({
         triggerElement:'#services',
-        triggerHook: 0.8
+        triggerHook: 0.2
         
     })
     .setTween(animatein3)
@@ -118,7 +116,123 @@ $(document).ready(function(){
     .addTo(controller3);
     
     
+    
+    ///4th scene
+    
+    
+    var controller4 = new ScrollMagic.Controller();
+    var animatein4 = new TimelineMax();
+    animatein4
+    .from('#cm', 0.4, {autoAlpha:0, x:'0', y:'80%', ease:Power0.easeOut},1.2)
+    .from('#cmblocker img', 3, {autoAlpha:0, x:"50%", y:"0"},1.4)
+    .from('#VCtitle', 0.4, {autoAlpha:0, x:'0', y:'80%', ease:Power0.easeOut},1.8)
+    .from('#adhd img', 3, {autoAlpha:0, scaleX:0, scaleY:0, ease: Bounce.easeOut}, 1.9)
+    .from('.VCbeliever', 1.2, {autoAlpha:0, ease:Power1.easeOut},2.1)
+    .from('#accordion', 1.4, {autoAlpha:0, ease:Power1.easeOut}, 2.4)
+    .from('#copyprocess1', 1.4, {autoAlpha:0, ease:Power1.easeOut}, 2.5)
+    .from('#copyprocess2', 1.4, {autoAlpha:0, ease:Power1.easeOut}, 2.6)
+    .from('#copyprocess3', 1.4, {autoAlpha:0, ease:Power1.easeOut}, 2.7)
+    .from('#logo-row', 1, {scaleX:0,scaleY:0, ease:Bounce.easeOut},2.8)
+    
+    
+    ;
+    
+    
+    
+    var cmScene = new ScrollMagic.Scene({
+        triggerElement: '#cm',
+        triggerHook: 0.9
+        
+    })
+    .setTween(animatein4)
+    .addTo(controller4);
      
     
     
+    //5th scene
+    
+    
+    
+    var controller5 = new ScrollMagic.Controller();
+    var animatein5 = new TimelineMax();
+    animatein5
+    .from('#workedw', 0.6, {autoAlpha:0, ease:Power1.easeOut}, 0.6)
+    .from('#client-page', 0.6, {autoAlpha:0, ease:Power1.easeOut}, 0.7)
+    ;
+
+
+    var wwScence = new ScrollMagic.Scene({
+        triggerElement: '#worked-with',
+        triggerHook: 0.75
+        
+        
+    })
+    .setTween(animatein5)
+    .addTo(controller5);
+  
+    
+    //6th scene
+    
+    var controller6 = new ScrollMagic.Controller();
+    var animatein6 = new TimelineMax();
+    animatein6
+    .from('#team-page', 1.2, {autoAlpha:0, x:'0%', y:'-50%', ease:Bounce.easeOut}, 0.8);
+    
+    var aboutScene = new ScrollMagic.Scene({
+        triggerElement: '#worked-with',
+        triggerHook: 0.75
+        
+    })
+    .setTween(animatein6)
+    .addTo(controller6);
+    
+    
+    
+    //7th scene
+    
+    
+    var controller7 = new ScrollMagic.Controller();
+    var animatein7 = new TimelineMax();
+    animatein7
+    .from('#contactt', 0.6, {autoAlpha:0, x:'0%', y:'-30%', ease:Bounce.easeOut}, 0.6)
+    .from('#add', 0.8, {autoAlpha:0, x:'-40%', y:'0%', ease: Bounce.easeOut})
+    .from('#form-name', 0.8, {autoAlpha:0, x:'50%', y:'0%', ease:Power0.easeOut}, 0.9)
+    .from('#form-email', 0.8, {autoAlpha:0, x:'70%', y:'0%', ease:Power0.easeOut}, 1.2)
+    .from('#form-subject', 0.8, {autoAlpha:0, x:'50%', y:'0%', ease:Power0.easeOut}, 1.5)
+    .from('#form-message', 0.8, {autoAlpha:0, x:'70%', y:'0%', ease:Power0.easeOut}, 1.7)
+    .from('#btncontact', 0.8, {autoAlpha:0, x:'50%', y:'0%', ease:Power0.easeOut}, 1.2)
+    .from('#facebook', 1, {x:'0%', y:'-50%', ease:Bounce.easeOut}, 1.5)
+    .from('#twitter', 1, {x:'5%', y:'-50%', ease:Bounce.easeOut}, 1.8)
+    .from('#google', 1, {x:'10%', y:'-50%', ease:Bounce.easeOut}, 2.1)
+    .from('#linkedin', 1, {x:'15%', y:'-50%', ease:Bounce.easeOut}, 2.4)
+    .from('#github', 1, {x:'20%', y:'-50%', ease:Bounce.easeOut}, 2.7)
+    
+    ;
+    
+    
+    
+    var contactScene = new ScrollMagic.Scene({
+        
+        triggerElement: '#contact-form',
+        triggerHook: 0.9
+        
+    })
+    .setTween(animatein7)
+    .addIndicators({
+		name: 'fade scene3',
+		colorTrigger: 'lilac',
+		colorStart: '#75C695',
+		colorEnd: 'magenta'
+	})
+    .addTo(controller7);
+    
+    
 });
+
+
+
+
+
+
+
+    
