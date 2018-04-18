@@ -102,22 +102,24 @@ $(document).ready(function(){
     ///4th scene
     
     
-    //var controller4 = new ScrollMagic.Controller();
-    //var animatein4 = new TimelineMax();
+    var controller4 = new ScrollMagic.Controller();
+    var animatein4 = new TimelineMax();
     animatein4
-    .from('#cm', 0.4, {autoAlpha:0, x:'0', y:'80%', ease:Power0.easeOut},1.2)
-    .from('#cmblocker img', 3, {autoAlpha:0, x:"50%", y:"0"},1.4)
-    .from('#VCtitle', 0.4, {autoAlpha:0, x:'0', y:'80%', ease:Power0.easeOut},1.8)
-    .from('#adhd img', 3, {autoAlpha:0, scaleX:0, scaleY:0, ease: Bounce.easeOut}, 1.9)
+    //.from('#cm', 0.4, {autoAlpha:0, x:'0', y:'80%', ease:Power0.easeOut},1.2)
+    .from('#cmblocker img', 1, {autoAlpha:0, x:"50%", y:"0"},0.4)
+    //.from('#VCtitle', 0.4, {autoAlpha:0, x:'0', y:'80%', ease:Power0.easeOut},1.8)
+    .from('#adhd img', 2, {autoAlpha:0, scaleX:0, scaleY:0, ease: Bounce.easeOut}, 0.9)
     //.from('.VCbeliever', 1.2, {autoAlpha:0, ease:Power1.easeOut},2.1)
     //.from('#accordion', 1.4, {autoAlpha:0, ease:Power1.easeOut}, 2.4)
     //.from('#copyprocess1', 1.4, {autoAlpha:0, ease:Power1.easeOut}, 2.5)
     //.from('#copyprocess2', 1.4, {autoAlpha:0, ease:Power1.easeOut}, 2.6)
     //.from('#copyprocess3', 1.4, {autoAlpha:0, ease:Power1.easeOut}, 2.7)
-    .from('#logo-row', 1, {scaleX:0,scaleY:0, ease:Bounce.easeOut},2.8)
+    .from('#logo-row', 1, {scaleX:0,scaleY:0, ease:Bounce.easeOut},1.8)
     
     
     ;
+    
+    
     
     
     
