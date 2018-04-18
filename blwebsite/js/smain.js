@@ -36,23 +36,29 @@ $(document).ready(function(){
     
     var animatein = new TimelineMax();
     animatein
-    .from('#bulb img', 0.2, {scaleX:0,scaleY:0},0.2)
-    .from('#howdo', 0.4, {autoAlpha:0, ease:Power4.easeIn}, 0.4)
-    .from('#dotitle', 0.8, {autoAlpha:0, ease:Power1.easeIn},0.8)
+    .from('#howdo', 0.2, {autoAlpha:0.7, ease:Power4.easeIn}, 0.1)
+    .from('#bulb img', 1, {scaleX:0,scaleY:0},0.3)
+    .from('#dotitle', 1, {autoAlpha:0, ease:Power1.easeIn},0.8)
     .from('#tsstyle', 1, {autoAlpha:0, ease:Power2.easeIn},1)
     .from('#taoofsixtitle', 1.2, {autoAlpha:0, ease:Power3.easeNone},1.2)
     
-    .from('#taoofsix1', 0.6, {autoAlpha:0, x:"-100%",y:"0"},2)
-    .from('#taoofsix2', 0.6, {autoAlpha:0, x:"-50%",y:"0"},2);
+    .from('#taoofsix1', 1, {autoAlpha:0, x:"-100%",y:"0"},2)
+    .from('#taoofsix2', 1, {autoAlpha:0, x:"-50%",y:"0"},2);
     
     
     var bulbScene = new ScrollMagic.Scene({
-        triggerElement: '#bulb',
-        triggerHook: 0.8
+        triggerElement: '#howdo',
+        triggerHook: 0.2
         
         
     })
     .setTween(animatein)
+    .addIndicators({
+		name: 'fade scene',
+		colorTrigger: 'black',
+		colorStart: '#75C695',
+		colorEnd: 'pink'
+	})
     .addTo(controller1);
     
     
@@ -73,6 +79,12 @@ $(document).ready(function(){
         triggerHook: 0.6
     })
     .setTween(animatein2)
+    .addIndicators({
+		name: 'fade scene2',
+		colorTrigger: 'black',
+		colorStart: '#75C695',
+		colorEnd: 'pink'
+	})
     .addTo(controller1);
     
     //build a scene
@@ -84,8 +96,8 @@ $(document).ready(function(){
     .from('#solutionst', 0.6, {autoAlpha:0, x:"0", y:"80%"}, 0.4)
     .from('#styleimg2', 0.6, {autoAlpha:0, ease:Power1.easeIn},0.4)
     .from('.single-blog', 1.2, {autoAlpha:0, x:"0", y:"80%"}, 0.8)
+    .from('')
     ;
-    
     
     
     
@@ -97,6 +109,12 @@ $(document).ready(function(){
         
     })
     .setTween(animatein3)
+    .addIndicators({
+		name: 'fade scene3',
+		colorTrigger: 'black',
+		colorStart: '#75C695',
+		colorEnd: 'pink'
+	})
     .addTo(controller3);
     
     
