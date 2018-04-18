@@ -185,11 +185,11 @@ $(document).ready(function(){
     .from('#form-subject', 0.8, {autoAlpha:0, x:'50%', y:'0%', ease:Power0.easeOut}, 1.5)
     .from('#form-message', 0.8, {autoAlpha:0, x:'70%', y:'0%', ease:Power0.easeOut}, 1.7)
     .from('#btncontact', 0.8, {autoAlpha:0, x:'50%', y:'0%', ease:Power0.easeOut}, 1.2)
-    .from('#facebook', 1, {x:'0%', y:'-50%', ease:Bounce.easeOut}, 1.5)
-    .from('#twitter', 1, {x:'5%', y:'-50%', ease:Bounce.easeOut}, 1.8)
-    .from('#google', 1, {x:'10%', y:'-50%', ease:Bounce.easeOut}, 2.1)
-    .from('#linkedin', 1, {x:'15%', y:'-50%', ease:Bounce.easeOut}, 2.4)
-    .from('#github', 1, {x:'20%', y:'-50%', ease:Bounce.easeOut}, 2.7)
+    .from('#facebook', 1, {x:'0%', y:'-50%', ease:Bounce.easeOut}, 2.5)
+    .from('#twitter', 1, {x:'5%', y:'-50%', ease:Bounce.easeOut}, 2.8)
+    .from('#google', 1, {x:'10%', y:'-50%', ease:Bounce.easeOut}, 3.1)
+    .from('#linkedin', 1, {x:'15%', y:'-50%', ease:Bounce.easeOut}, 3.4)
+    .from('#github', 1, {x:'20%', y:'-50%', ease:Bounce.easeOut}, 3.7)
     
     ;
     
