@@ -30,6 +30,19 @@ $(document).ready(function(){
         
     //})
     
+   
+    
+    var slide2 = $(".titleanim");
+    TweenMax.set(slide2,{left:'0%',xPercent:"-250%"})
+
+    var slidet2 = new TimelineMax({repeat:-1});
+
+    slidet2.staggerTo(slide2,3,{left:'100%',xPercent:"190%",ease:SlowMo.ease.config(0.9,0.9)},3)
+    
+    
+    
+    
+    
     
     var controller1 = new ScrollMagic.Controller();
     
