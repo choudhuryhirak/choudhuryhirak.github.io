@@ -51,6 +51,7 @@ a {
 .titleanim{
     position: absolute;
     white-space: nowrap;
+    z-index: 2;
     
 }
 
@@ -391,7 +392,7 @@ input:-webkit-autofill:focus {
 
 .affix-bottom {
   position: absolute;
-  width: 100%;  
+  width: 100%;
 }
 
 
@@ -431,11 +432,30 @@ input:-webkit-autofill:focus {
 
 .client-area,
 .header-area {
-    background: #000000 url('images/parallaxgif3.gif') no-repeat scroll center center / cover;
+    background: #000000 url('images/parallax-2.jpg') no-repeat scroll center center;
+}
+
+.embed-responsive
+{
+    position: absolute;
+    z-index: 0;
+    
+}
+
+.header-area embed-responsive iframe
+{    
+    
+    position: absolute;
+    z-index: 0;
+    
+    
+    
 }
 
 .anlge-bg {
+    position: absolute;
     background: url('images/angle-bg.png') no-repeat scroll center bottom -120px / 100% auto;
+    z-index: 1;
 }
 
 .overlay {
@@ -455,6 +475,7 @@ input:-webkit-autofill:focus {
 .header-text h2 {
     margin-bottom: 20px;
     font-size: 40px;
+   
 }
 
 .header-text .button {
@@ -1070,7 +1091,7 @@ input:-webkit-autofill:focus {
 
 #taoofsixtitle
 {
-    font-size: 50px; 
+    font-size: 40px; 
     color: white;
     
     
@@ -1079,9 +1100,8 @@ input:-webkit-autofill:focus {
 #teamimg, #globeimg
 {
     max-width: 80px;
-    
-    
-}
+   
+} 
 
 
 #acctitle

@@ -26,17 +26,46 @@ $(document).ready(function(){
         
         
         //.addTo(controller);
+    
+    
+    
+    //var el = $(".el");
+//TweenMax.set(el,{autoAlpha:0,left:'0%',xPercent:"-50%"})
+//var tl = new TimelineMax({repeat:-1});
+
+//for(var i=0;i<el.length;i++){
+  //E = el[i];
+  //tl.to(E,0.5,{autoAlpha:1,left:'30%',ease:Power2.easeIn})
+  	//.to(E,2,{left:'70%',ease:Power0.easeNone})
+  	//.to(E,0.5,{left:'100%',autoAlpha:0,ease:Power2.easeOut})
+//};
         
         
     //})
+    
+   /* var slide2 = $(".titleanim");
+    TweenMax.set(slide2, {autoAlpha:0, left:'0%', xPercent:"-250%"})
+    var slide2tl = new TimelineMax({repeat: -1});
+    
+    
+    for(var i=0; i<slide2.length; i++){
+        E = slide2[i];
+        slide2tl.to(E,0.5,{autoAlpha:1, left:'30%', ease:Power2.easeIn})
+        .to(E,2,{left:'70%',ease:Power0.easeNone})
+        .to(E,0.5,{left:'100%',autoAlpha:0,ease:Power2.easeOut})
+        
+        
+    };*/
+    
+    
     
    
     
     var slide2 = $(".titleanim");
     TweenMax.set(slide2,{left:'0%',xPercent:"-250%"})
-
+    
     var slidet2 = new TimelineMax({repeat:-1});
-
+    
     slidet2.staggerTo(slide2,3,{left:'100%',xPercent:"190%",ease:SlowMo.ease.config(0.9,0.9)},3)
     
     
