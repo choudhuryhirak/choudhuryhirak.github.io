@@ -38,6 +38,12 @@
 /* Mobile Layout: 320px. */
 
 @media only screen and (max-width: 767px) {
+    
+    
+    
+    
+    
+    
     body {
         font-size: 13px;
     }
@@ -46,6 +52,16 @@
         padding-bottom: 100px;
         height: auto;
     }
+    
+    .client-area,
+.header-area {
+    background: #000000 url('../images/parallax-2.jpg') no-repeat scroll center center / cover;
+}
+    
+    
+    
+    
+    
     .page-title h2,
     .header-text h2 {
         font-size: 20px;
