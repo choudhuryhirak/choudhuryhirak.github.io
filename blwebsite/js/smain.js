@@ -66,7 +66,7 @@ $(document).ready(function(){
     
     var slidet2 = new TimelineMax({repeat:-1});
     
-    slidet2.staggerTo(slide2,3,{left:'100%',xPercent:"200%", opacity:0.5, ease:SlowMo.ease.config(0.9,0.9)},3);
+    slidet2.staggerTo(slide2,3,{left:'100%',xPercent:"150%", opacity:0.5, ease:SlowMo.ease.config(0.5,0.9)},3);
     
     
     
