@@ -61,12 +61,34 @@ $(document).ready(function(){
     
    
     
-    var slide2 = $(".titleanim");
+    /*var slide2 = $(".titleanim");
     TweenMax.set(slide2,{left:'0%',xPercent:"-250%"});
     
     var slidet2 = new TimelineMax({repeat:-1});
     
     slidet2.staggerTo(slide2,3,{left:'100%',xPercent:"150%", opacity:0.5, ease:SlowMo.ease.config(0.5,0.9)},3);
+    */
+    
+    
+    
+    var controller0 = new ScrollMagic.Controller();
+    var animatein0 = new TimelineMax({repeat: -1});
+    
+    animatein0
+    .from('.titleanim', 0.6, {autoAlpha:0, x:"0", y:"80%"}, 0.4);
+    
+    
+    var fadeScene0 = new ScrollMagic.Scene({
+        triggerElement: '#homepage',
+        triggerHook: 0.2
+        
+        
+    })
+    .setTween(animatein0)
+    .addTo(controller0);
+    
+    
+    
     
     
     
