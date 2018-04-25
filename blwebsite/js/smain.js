@@ -61,17 +61,17 @@ $(document).ready(function(){
     
    
     
-    /*var slide2 = $(".titleanim");
+    var slide2 = $(".titleanim");
     TweenMax.set(slide2,{left:'0%',xPercent:"-250%"});
     
     var slidet2 = new TimelineMax({repeat:-1});
     
     slidet2.staggerTo(slide2,3,{left:'100%',xPercent:"150%", opacity:0.5, ease:SlowMo.ease.config(0.5,0.9)},3);
-    */
     
     
     
-    var controller0 = new ScrollMagic.Controller();
+    
+    /*var controller0 = new ScrollMagic.Controller();
     var animatein0 = new TimelineMax({repeat: -1});
     
     animatein0
@@ -86,7 +86,7 @@ $(document).ready(function(){
     })
     .setTween(animatein0)
     .addTo(controller0);
-    
+    */
     
     
     
