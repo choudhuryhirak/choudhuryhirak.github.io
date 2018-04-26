@@ -69,12 +69,21 @@
 .paragraph {
   text-align:left;
 }
+.droplist {
+  color:#000000;
+  text-align:left;
+}
 .line {
 }
 .sticky_1 {
   text-align:left;
 }
 .flow_shape {
+}
+.html_button {
+  color:#000000;
+}
+.menu_item {
 }
 .horizontal_line {
 }
