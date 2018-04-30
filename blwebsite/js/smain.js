@@ -109,7 +109,7 @@ $(document).ready(function(){
     
     
     
-var tl = new TimelineMax({repeat:20});
+var tl = new TimelineMax({repeat:-1});
 
 $(".titleanim").each(function(index, element){
 
