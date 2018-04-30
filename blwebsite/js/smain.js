@@ -57,21 +57,7 @@ $(document).ready(function(){
         
     };*/
     
-    
-    
-   
-    
-    var slide2 = $(".titleanim");
-    TweenMax.set(slide2,{left:'0%',xPercent:"-250%"});
-    
-    var slidet2 = new TimelineMax({repeat:-1});
-    
-    slidet2.staggerTo(slide2,3,{left:'100%',xPercent:"150%", opacity:0.5, ease:SlowMo.ease.config(0.5,0.9)},3);
-    
-    
-    
-    
-    /*var controller0 = new ScrollMagic.Controller();
+     /*var controller0 = new ScrollMagic.Controller();
     var animatein0 = new TimelineMax({repeat: -1});
     
     animatein0
@@ -87,6 +73,51 @@ $(document).ready(function(){
     .setTween(animatein0)
     .addTo(controller0);
     */
+    
+    
+    
+    
+    
+   
+    
+    /*var slide2 = $(".titleanim");
+    TweenMax.set(slide2,{left:'0%',xPercent:"-250%"});
+    
+    var slidet2 = new TimelineMax({repeat:-1});
+    
+    slidet2.staggerTo(slide2,3,{left:'100%',xPercent:"150%", opacity:0.5, ease:SlowMo.ease.config(0.5,0.9)},3);*/
+    
+    
+     /*var controller0 = new ScrollMagic.Controller();
+    var animatein0 = new TimelineMax({repeat: -1});
+    
+    animatein0
+    .from('.titleanim', 0.6, {autoAlpha:0, x:"0", y:"80%"}, 0.4);
+    
+    
+    var fadeScene0 = new ScrollMagic.Scene({
+        triggerElement: '#homepage',
+        triggerHook: 0.2
+        
+        
+    })
+    .setTween(animatein0)
+    .addTo(controller0);
+    */
+    
+    
+    
+    
+    
+var tl = new TimelineMax({repeat:20});
+
+$(".titleanim").each(function(index, element){
+
+    tl.to(element, 2, {left:"15%", opacity:1})
+    .to(element, 0.8, {left:"40%", opacity:0, ease:Power2.easeIn}, "+=1")
+
+})
+   
     
     
     
@@ -118,6 +149,33 @@ $(document).ready(function(){
     })
     .setTween(animatein)
     .addTo(controller1);
+    
+    //
+    
+    
+    var controller1a = new ScrollMagic.Controller();
+    
+    var animatein2a = new TimelineMax();
+    animatein2a
+    .from('#sode2 img', 3, {autoAlpha:0, x:"-50%", y:"0"},0.2)
+    .from('.dt2', 0.6, {autoAlpha:0, x:"25%", y:"0"},0.2)
+    .from('#styleimg1', 0.8, {autoAlpha:0, ease:Power1.easeIn},0.4)
+    .from('.caption-title1', 0.6,{autoAlpha:0, x:"0", y:"15%"}, 0.6)
+    .from('#dwcopy2', 0.6, {autoAlpha:0, x:"0", y:"15%"}, 0.6)
+    ;
+    
+    var whyusScene = new ScrollMagic.Scene({
+        triggerElement: '#powerofdata',
+        triggerHook: 0.2
+    })
+    .setTween(animatein2a)
+    .addTo(controller1a);
+    
+    
+    
+    
+    
+    //
     
     
     

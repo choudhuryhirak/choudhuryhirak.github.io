@@ -119,6 +119,7 @@
     
     #titletag
     {
+        margin-left: -150px;
         font-size: 20px;
         padding-bottom: 15%;
     }
@@ -168,6 +169,12 @@
         font-size: 15px;
         
     }
+    
+    #dwcopy2
+    {
+        font-size: 15px;
+    }
+    
     
     #dwicon
     {
