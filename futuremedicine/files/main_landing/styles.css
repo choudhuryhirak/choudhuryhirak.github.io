@@ -1406,7 +1406,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Light', 'Lato';
+  font-family:'Lato Light', 'Lato Regular', 'Lato';
   font-weight:300;
   font-style:normal;
   font-size:16px;
@@ -1417,7 +1417,7 @@
   top:385px;
   width:94px;
   height:19px;
-  font-family:'Lato Light', 'Lato';
+  font-family:'Lato Light', 'Lato Regular', 'Lato';
   font-weight:300;
   font-style:normal;
   font-size:16px;
@@ -1442,7 +1442,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Light', 'Lato';
+  font-family:'Lato Light', 'Lato Regular', 'Lato';
   font-weight:300;
   font-style:normal;
   font-size:16px;
@@ -1453,7 +1453,7 @@
   top:385px;
   width:48px;
   height:19px;
-  font-family:'Lato Light', 'Lato';
+  font-family:'Lato Light', 'Lato Regular', 'Lato';
   font-weight:300;
   font-style:normal;
   font-size:16px;
@@ -1478,7 +1478,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Light', 'Lato';
+  font-family:'Lato Light', 'Lato Regular', 'Lato';
   font-weight:300;
   font-style:normal;
   font-size:16px;
@@ -1489,7 +1489,7 @@
   top:385px;
   width:47px;
   height:19px;
-  font-family:'Lato Light', 'Lato';
+  font-family:'Lato Light', 'Lato Regular', 'Lato';
   font-weight:300;
   font-style:normal;
   font-size:16px;
@@ -1747,7 +1747,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Light', 'Lato';
+  font-family:'Lato Light', 'Lato Regular', 'Lato';
   font-weight:300;
   font-style:normal;
   font-size:18px;
@@ -1758,7 +1758,7 @@
   top:635px;
   width:124px;
   height:23px;
-  font-family:'Lato Light', 'Lato';
+  font-family:'Lato Light', 'Lato Regular', 'Lato';
   font-weight:300;
   font-style:normal;
   font-size:18px;
@@ -1971,7 +1971,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:48px;
@@ -1983,7 +1983,7 @@
   top:1384px;
   width:1554px;
   height:84px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:48px;
@@ -2009,7 +2009,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -2021,7 +2021,7 @@
   top:1492px;
   width:327px;
   height:117px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -2214,7 +2214,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:18px;
@@ -2226,7 +2226,7 @@
   top:2259px;
   width:422px;
   height:71px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:18px;
@@ -2332,7 +2332,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:18px;
@@ -2344,7 +2344,7 @@
   top:2259px;
   width:346px;
   height:73px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:18px;
@@ -2392,7 +2392,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:22px;
@@ -2404,7 +2404,7 @@
   top:2017px;
   width:109px;
   height:38px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:22px;
@@ -2430,7 +2430,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:22px;
@@ -2442,7 +2442,7 @@
   top:2017px;
   width:109px;
   height:38px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:22px;
@@ -2614,7 +2614,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -2625,7 +2625,7 @@
   top:2662px;
   width:135px;
   height:33px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -2750,7 +2750,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -2761,7 +2761,7 @@
   top:2919px;
   width:190px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -2844,7 +2844,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -2855,7 +2855,7 @@
   top:3337px;
   width:190px;
   height:38px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -2996,7 +2996,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -3007,7 +3007,7 @@
   top:3325px;
   width:190px;
   height:38px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -3170,7 +3170,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:22px;
@@ -3182,7 +3182,7 @@
   top:4277px;
   width:197px;
   height:43px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:22px;
@@ -3230,7 +3230,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -3241,7 +3241,7 @@
   top:3899px;
   width:154px;
   height:38px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -3302,7 +3302,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:22px;
@@ -3314,7 +3314,7 @@
   top:4277px;
   width:160px;
   height:43px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:22px;
@@ -3340,7 +3340,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -3351,7 +3351,7 @@
   top:3899px;
   width:125px;
   height:38px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -3759,7 +3759,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -3770,7 +3770,7 @@
   top:4712px;
   width:154px;
   height:38px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -3913,7 +3913,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -3924,7 +3924,7 @@
   top:4706px;
   width:154px;
   height:38px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -4029,7 +4029,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -4040,7 +4040,7 @@
   top:5670px;
   width:154px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -4145,7 +4145,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -4156,7 +4156,7 @@
   top:5668px;
   width:194px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -4297,7 +4297,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -4308,7 +4308,7 @@
   top:5668px;
   width:184px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -4377,7 +4377,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -4388,7 +4388,7 @@
   top:5668px;
   width:184px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -4645,7 +4645,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -4656,7 +4656,7 @@
   top:6249px;
   width:125px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -4863,7 +4863,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -4874,7 +4874,7 @@
   top:6249px;
   width:125px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -4943,7 +4943,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:48px;
@@ -4954,7 +4954,7 @@
   top:7156px;
   width:519px;
   height:189px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:48px;
@@ -5015,7 +5015,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -5026,7 +5026,7 @@
   top:7064px;
   width:125px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -5139,7 +5139,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -5150,7 +5150,7 @@
   top:7644px;
   width:125px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -5175,7 +5175,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -5186,7 +5186,7 @@
   top:7644px;
   width:125px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -5211,7 +5211,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -5222,7 +5222,7 @@
   top:7644px;
   width:125px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -5247,7 +5247,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -5258,7 +5258,7 @@
   top:7644px;
   width:125px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -5283,7 +5283,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:36px;
@@ -5294,7 +5294,7 @@
   top:7782px;
   width:209px;
   height:95px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:36px;
@@ -5319,7 +5319,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:36px;
@@ -5330,7 +5330,7 @@
   top:7782px;
   width:209px;
   height:95px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:36px;
@@ -5355,7 +5355,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:36px;
@@ -5366,7 +5366,7 @@
   top:7782px;
   width:209px;
   height:143px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:36px;
@@ -5391,7 +5391,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:36px;
@@ -5402,7 +5402,7 @@
   top:7782px;
   width:209px;
   height:143px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:36px;
@@ -5782,7 +5782,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:115px;
+  width:132px;
   height:28px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -5791,7 +5791,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -5801,9 +5801,9 @@
   position:absolute;
   left:800px;
   top:8342px;
-  width:115px;
+  width:132px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -5813,14 +5813,14 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:115px;
+  width:132px;
   word-wrap:break-word;
 }
 #u404_div {
   position:absolute;
   left:0px;
   top:0px;
-  width:115px;
+  width:141px;
   height:28px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -5829,7 +5829,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -5839,9 +5839,9 @@
   position:absolute;
   left:800px;
   top:8385px;
-  width:115px;
+  width:141px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -5851,7 +5851,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:115px;
+  width:141px;
   word-wrap:break-word;
 }
 #u406_div {
@@ -5867,7 +5867,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -5879,7 +5879,7 @@
   top:8429px;
   width:115px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -5905,7 +5905,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -5917,7 +5917,7 @@
   top:8472px;
   width:115px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -5943,7 +5943,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -5951,11 +5951,11 @@
 }
 #u410 {
   position:absolute;
-  left:954px;
+  left:982px;
   top:8342px;
   width:115px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -5981,7 +5981,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -5989,11 +5989,11 @@
 }
 #u412 {
   position:absolute;
-  left:954px;
+  left:982px;
   top:8385px;
   width:115px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6019,7 +6019,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6027,11 +6027,11 @@
 }
 #u414 {
   position:absolute;
-  left:954px;
+  left:982px;
   top:8429px;
   width:129px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6057,7 +6057,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6065,11 +6065,11 @@
 }
 #u416 {
   position:absolute;
-  left:954px;
+  left:982px;
   top:8472px;
   width:115px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6118,7 +6118,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6126,11 +6126,11 @@
 }
 #u420 {
   position:absolute;
-  left:1103px;
+  left:1131px;
   top:8472px;
   width:115px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6156,7 +6156,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6164,11 +6164,11 @@
 }
 #u422 {
   position:absolute;
-  left:1103px;
+  left:1131px;
   top:8429px;
   width:115px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6194,7 +6194,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6202,11 +6202,11 @@
 }
 #u424 {
   position:absolute;
-  left:1103px;
+  left:1131px;
   top:8385px;
   width:115px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6232,7 +6232,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6240,11 +6240,11 @@
 }
 #u426 {
   position:absolute;
-  left:1103px;
+  left:1131px;
   top:8342px;
   width:115px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6270,7 +6270,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6282,7 +6282,7 @@
   top:8342px;
   width:251px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6341,7 +6341,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6353,7 +6353,7 @@
   top:8453px;
   width:239px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6379,7 +6379,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6387,11 +6387,11 @@
 }
 #u434 {
   position:absolute;
-  left:1275px;
+  left:1303px;
   top:8342px;
   width:251px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6413,7 +6413,7 @@
 }
 #u436 {
   position:absolute;
-  left:1277px;
+  left:1305px;
   top:8385px;
   width:8px;
   height:16px;
@@ -6435,7 +6435,7 @@
 }
 #u438 {
   position:absolute;
-  left:1299px;
+  left:1327px;
   top:8385px;
   width:19px;
   height:16px;
@@ -6457,7 +6457,7 @@
 }
 #u440 {
   position:absolute;
-  left:1332px;
+  left:1360px;
   top:8385px;
   width:17px;
   height:16px;
@@ -6721,7 +6721,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6732,7 +6732,7 @@
   top:3899px;
   width:280px;
   height:38px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6793,7 +6793,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:22px;
@@ -6805,7 +6805,7 @@
   top:4277px;
   width:84px;
   height:26px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:22px;
@@ -6853,7 +6853,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6864,7 +6864,7 @@
   top:3899px;
   width:280px;
   height:38px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -6925,7 +6925,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:22px;
@@ -6937,7 +6937,7 @@
   top:4277px;
   width:84px;
   height:26px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:22px;
@@ -7509,7 +7509,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -7521,7 +7521,7 @@
   top:668px;
   width:45px;
   height:19px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -7547,7 +7547,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -7559,7 +7559,7 @@
   top:768px;
   width:45px;
   height:19px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -7585,7 +7585,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -7597,7 +7597,7 @@
   top:892px;
   width:45px;
   height:19px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -7623,7 +7623,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -7635,7 +7635,7 @@
   top:1020px;
   width:45px;
   height:19px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -7661,7 +7661,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -7673,7 +7673,7 @@
   top:1173px;
   width:45px;
   height:19px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -7699,7 +7699,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Light', 'Lato';
+  font-family:'Lato Light', 'Lato Regular', 'Lato';
   font-weight:300;
   font-style:normal;
   font-size:20px;
@@ -7710,7 +7710,7 @@
   top:831px;
   width:484px;
   height:167px;
-  font-family:'Lato Light', 'Lato';
+  font-family:'Lato Light', 'Lato Regular', 'Lato';
   font-weight:300;
   font-style:normal;
   font-size:20px;
@@ -7735,7 +7735,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:18px;
@@ -7746,7 +7746,7 @@
   top:627px;
   width:39px;
   height:38px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:18px;
@@ -7843,7 +7843,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Light', 'Lato';
+  font-family:'Lato Light', 'Lato Regular', 'Lato';
   font-weight:300;
   font-style:normal;
   font-size:20px;
@@ -7854,7 +7854,7 @@
   top:869px;
   width:290px;
   height:105px;
-  font-family:'Lato Light', 'Lato';
+  font-family:'Lato Light', 'Lato Regular', 'Lato';
   font-weight:300;
   font-style:normal;
   font-size:20px;
@@ -7915,7 +7915,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Light', 'Lato';
+  font-family:'Lato Light', 'Lato Regular', 'Lato';
   font-weight:300;
   font-style:normal;
   font-size:18px;
@@ -7926,7 +7926,7 @@
   top:635px;
   width:133px;
   height:23px;
-  font-family:'Lato Light', 'Lato';
+  font-family:'Lato Light', 'Lato Regular', 'Lato';
   font-weight:300;
   font-style:normal;
   font-size:18px;
@@ -8023,7 +8023,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Light', 'Lato';
+  font-family:'Lato Light', 'Lato Regular', 'Lato';
   font-weight:300;
   font-style:normal;
   font-size:20px;
@@ -8034,7 +8034,7 @@
   top:1213px;
   width:266px;
   height:105px;
-  font-family:'Lato Light', 'Lato';
+  font-family:'Lato Light', 'Lato Regular', 'Lato';
   font-weight:300;
   font-style:normal;
   font-size:20px;
@@ -8059,7 +8059,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:18px;
@@ -8070,7 +8070,7 @@
   top:1064px;
   width:29px;
   height:26px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:18px;
@@ -8095,7 +8095,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:18px;
@@ -8106,7 +8106,7 @@
   top:1064px;
   width:29px;
   height:26px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:18px;
@@ -8131,7 +8131,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:18px;
@@ -8142,7 +8142,7 @@
   top:1064px;
   width:29px;
   height:26px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:18px;
@@ -8463,7 +8463,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:18px;
@@ -8475,7 +8475,7 @@
   top:2259px;
   width:346px;
   height:73px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:18px;
@@ -8523,7 +8523,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:22px;
@@ -8535,7 +8535,7 @@
   top:2017px;
   width:109px;
   height:38px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:22px;
@@ -8613,7 +8613,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -8624,7 +8624,7 @@
   top:3116px;
   width:102px;
   height:28px;
-  font-family:'Lato Bold', 'Lato';
+  font-family:'Lato Bold', 'Lato Regular', 'Lato';
   font-weight:700;
   font-style:normal;
   font-size:20px;

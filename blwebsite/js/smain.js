@@ -131,9 +131,11 @@ $(".titleanim").each(function(index, element){
     
     var animatein = new TimelineMax();
     animatein
-    .from('#howdo', 0.2, {autoAlpha:0.7, ease:Power4.easeIn}, 0.1)
+    
     .from('#bulb img', 1, {scaleX:0,scaleY:0},0.3)
+    .from('#howdo', 0.5, {autoAlpha:0.7, ease:Power4.easeIn}, 0.4)
     .from('#dotitle', 1, {autoAlpha:0, ease:Power1.easeIn},0.8)
+    
     .from('#tsstyle', 1, {autoAlpha:0, ease:Power2.easeIn},1)
     .from('#taoofsixtitle', 1.2, {autoAlpha:0, ease:Power3.easeNone},1.2)
     
