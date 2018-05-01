@@ -113,8 +113,8 @@ var tl = new TimelineMax({repeat:-1});
 
 $(".titleanim").each(function(index, element){
 
-    tl.to(element, 2, {left:"15%", opacity:1})
-    .to(element, 0.8, {left:"40%", opacity:0, ease:Power2.easeIn}, "+=1")
+    tl.to(element, 3, {left:"15%", opacity:1})
+    .to(element, 2, {left:"40%", opacity:0, ease:Power2.easeIn}, "+=1")
 
 })
    
