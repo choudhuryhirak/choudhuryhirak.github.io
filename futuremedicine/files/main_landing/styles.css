@@ -3447,7 +3447,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:90px;
+  width:101px;
   height:22px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -3466,7 +3466,7 @@
   position:absolute;
   left:1970px;
   top:4400px;
-  width:90px;
+  width:101px;
   height:22px;
   font-family:'AmsiPro ☞ Bold', 'AmsiPro ☞';
   font-weight:700;
@@ -3478,7 +3478,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:90px;
+  width:101px;
   word-wrap:break-word;
 }
 #u249_img {
@@ -7012,7 +7012,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:90px;
+  width:108px;
   height:22px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -7031,7 +7031,7 @@
   position:absolute;
   left:787px;
   top:3601px;
-  width:90px;
+  width:108px;
   height:22px;
   font-family:'AmsiPro ☞ Bold', 'AmsiPro ☞';
   font-weight:700;
@@ -7043,7 +7043,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:90px;
+  width:108px;
   word-wrap:break-word;
 }
 #u481 {
@@ -7108,7 +7108,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:90px;
+  width:101px;
   height:22px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -7127,7 +7127,7 @@
   position:absolute;
   left:759px;
   top:2388px;
-  width:90px;
+  width:101px;
   height:22px;
   font-family:'AmsiPro ☞ Bold', 'AmsiPro ☞';
   font-weight:700;
@@ -7139,7 +7139,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:90px;
+  width:101px;
   word-wrap:break-word;
 }
 #u488_img {
@@ -7205,14 +7205,11 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:145px;
+  width:155px;
   height:42px;
   background:inherit;
-  background-color:rgba(0, 0, 0, 1);
-  box-sizing:border-box;
-  border-width:1px;
-  border-style:solid;
-  border-color:rgba(121, 121, 121, 1);
+  background-color:rgba(204, 204, 204, 1);
+  border:none;
   border-radius:50px;
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
@@ -7222,14 +7219,14 @@
   position:absolute;
   left:740px;
   top:6129px;
-  width:145px;
+  width:155px;
   height:42px;
 }
 #u494 {
   position:absolute;
   left:2px;
   top:13px;
-  width:141px;
+  width:151px;
   visibility:hidden;
   word-wrap:break-word;
 }
@@ -7259,7 +7256,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:90px;
+  width:96px;
   height:22px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -7278,7 +7275,7 @@
   position:absolute;
   left:785px;
   top:6139px;
-  width:90px;
+  width:96px;
   height:22px;
   font-family:'AmsiPro ☞ Bold', 'AmsiPro ☞';
   font-weight:700;
@@ -7290,7 +7287,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:90px;
+  width:96px;
   word-wrap:break-word;
 }
 #u499 {
@@ -7304,14 +7301,11 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:145px;
+  width:155px;
   height:42px;
   background:inherit;
-  background-color:rgba(0, 0, 0, 1);
-  box-sizing:border-box;
-  border-width:1px;
-  border-style:solid;
-  border-color:rgba(121, 121, 121, 1);
+  background-color:rgba(204, 204, 204, 1);
+  border:none;
   border-radius:50px;
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
@@ -7321,14 +7315,14 @@
   position:absolute;
   left:740px;
   top:6902px;
-  width:145px;
+  width:155px;
   height:42px;
 }
 #u501 {
   position:absolute;
   left:2px;
   top:13px;
-  width:141px;
+  width:151px;
   visibility:hidden;
   word-wrap:break-word;
 }
@@ -7358,7 +7352,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:90px;
+  width:96px;
   height:22px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -7377,7 +7371,7 @@
   position:absolute;
   left:785px;
   top:6912px;
-  width:90px;
+  width:96px;
   height:22px;
   font-family:'AmsiPro ☞ Bold', 'AmsiPro ☞';
   font-weight:700;
@@ -7389,7 +7383,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:90px;
+  width:96px;
   word-wrap:break-word;
 }
 #u506_img {
