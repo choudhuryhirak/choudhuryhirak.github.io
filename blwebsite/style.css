@@ -218,7 +218,7 @@ input:-webkit-autofill:focus {
     padding: 8px 30px;
     border-radius: 50px;
     color: #ffffff;
-    background-color: #2f60c3;
+    background-color: #1b1d31;
     -webkit-transition: 0.3s;
     transition: 0.3s;
     border: none;
@@ -385,8 +385,8 @@ input:-webkit-autofill:focus {
 }
 
 .mainmenu-area.affix {
-    background-color: #47539f;
-    box-shadow: 0 4px 18px 0 rgba(23, 40, 84, .22), 0 7px 10px -5px rgba(23, 40, 84, .25);
+    background-color: #1b1d31;
+/*    box-shadow: 0 4px 18px 0 rgba(23, 40, 84, .22), 0 7px 10px -5px rgba(23, 40, 84, .25);*/
 }
 
 .affix {
