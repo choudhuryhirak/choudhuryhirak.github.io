@@ -322,7 +322,7 @@ $(".titleanim").each(function(index, element){
     var contactScene = new ScrollMagic.Scene({
         
         triggerElement: '#contact-form',
-        triggerHook: 0.9
+        triggerHook: 0.4
         
     })
     .setTween(animatein7)
