@@ -14,7 +14,7 @@ Ajax Contact Form
 (function ($, window, document, undefined) {
     'use strict';
 
-    var $form = $('#contact-form');
+    var $form = $('#contact-form22');
 
     $form.submit(function (e) {
         // remove the error class
