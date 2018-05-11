@@ -426,8 +426,19 @@ input:-webkit-autofill:focus {
 }
 
 
+#blockerimg
+{
+    display: block;
+ 
+    
+}
 
 
+#blockerimg2
+{
+    display: none;
+    
+}
 
 
 

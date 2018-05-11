@@ -213,7 +213,8 @@
             
             
             <div class="container">
-                <div class="container hidden-xs hidden-sm" id="bulb">
+                <div class="container" id="bulb">
+                   <img src="images/bulbres.png" alt="" class="img-responsive left-block" id="blockerimg2">
                     
 	                <img src="images/bulbcenter.png" alt="" class="img-responsive center-block" id="blockerimg">
 	            </div>
@@ -262,7 +263,7 @@
             <div class="col-lg-12 text-left caption-title">
                <h2 class="dt2">The Power of Data</h2>
             </div>
-            <div class="col-lg-12 hidden-xs text-center container">
+            <div class="col-lg-12 text-center container">
                 <img src="images/title_dow.png" class="img-responsive left-block" id="styleimg1" alt="" style="padding-left:5%; padding-bottom: 3%;">
             </div>
         </div>
@@ -790,12 +791,12 @@
                     <div class="col-xs-12 col-md-8">
                         <form action="mailto:choudhuryhirakkumar@gmail.com" id="contact-form" method="post" enctype="text/plain" class="contact-form">
                             <div class="form-double">
-                                <input type="text" id="form-name" name="form-name" placeholder="Your name" class="form-control" required="required">
-                                <input type="email" id="form-email" name="form-email" class="form-control" placeholder="E-mail address" required="required">
+                                <input type="text" id="form-name" name="form-name" placeholder="Your name" class="form-control" name="name" required="required">
+                                <input type="email" id="form-email" name="email" class="form-control" placeholder="E-mail address" required="required">
                             </div>
-                            <input type="text" id="form-subject" name="form-subject" class="form-control" placeholder="Message topic">
+                            <input type="text" id="form-subject" name="subject" class="form-control" placeholder="Message topic">
                             <textarea name="message" id="form-message" name="form-message" rows="5" class="form-control" placeholder="Your message" required="required"></textarea>
-                              <button type="submit" class="button" id="btncontact">Submit</button>
+                              <button type="submit" class="button" id="btncontact" role="button">Submit</button>
                         </form>
                     </div>
                 </div>
