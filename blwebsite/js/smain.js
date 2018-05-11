@@ -266,6 +266,7 @@ $(".titleanim").each(function(index, element){
     animatein5
     .from('#workedw', 0.6, {autoAlpha:0, ease:Power1.easeOut}, 0.6)
     .from('#client-page', 0.6, {autoAlpha:0, ease:Power1.easeOut}, 0.7)
+    .from('#team-page', 1.2, {autoAlpha:0,ease:Power1.easeOut}, 0.8)
     ;
 
 
@@ -281,18 +282,7 @@ $(".titleanim").each(function(index, element){
     
     //6th scene
     
-    var controller6 = new ScrollMagic.Controller();
-    var animatein6 = new TimelineMax();
-    animatein6
-    .from('#team-page', 1.2, {autoAlpha:0, x:'0%', y:'-50%', ease:Bounce.easeOut}, 0.8);
-    
-    var aboutScene = new ScrollMagic.Scene({
-        triggerElement: '#team-page',
-        triggerHook: 0.75
-        
-    })
-    .setTween(animatein6)
-    .addTo(controller6);
+   
     
     
     
