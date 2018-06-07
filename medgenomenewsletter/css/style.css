@@ -1,0 +1,286 @@
+#wholebody
+{
+    max-width: 1280px;
+    align-content: center;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+
+#overlay
+{
+    background-image: url(../images/overlayimg.png);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position:left;
+    background-size: cover;
+    padding-bottom: 5%;
+    height: 460px;
+    
+    
+    
+}
+
+#clariac
+{
+    padding-top: 23%; 
+    background-size: cover;
+  
+}
+
+#clariacinner
+{    
+    background-color: rgba(0,0,0,0.5); 
+    width: 100%; 
+    padding: 1px
+    
+}
+
+#flextext1
+{
+    color: white; 
+    font-size: 20px; 
+    font-weight: 300; 
+    margin-bottom: 2px; 
+    padding-top: 1%; 
+    padding-left: 2%
+    
+}
+
+#flextext2
+{
+    color: white; 
+    font-size: 25px; 
+    padding-left: 2%;
+    
+}
+
+#backlinkscon
+{
+
+padding-top: 5%;
+text-align: left;
+
+
+}
+
+
+#social
+{
+    text-align: left;
+    
+    
+}
+
+#aboutspeaker
+{
+    text-align: left;
+    
+    
+    
+}
+
+
+#learn
+{
+    text-align: left;
+}
+
+#summ
+{
+    text-align: left;
+}
+
+
+#_form_17_
+{   margin-top: 2px;
+    background-color: #f9f9f9;
+    padding: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    height: auto;
+    
+}
+
+#medgenomelogo
+{
+max-width: 180px;
+}
+
+
+#clarialogo
+{
+    max-width: 130px;
+}
+
+.form-control
+{
+   
+    border-radius: 5px;
+}
+
+
+.form-row
+{
+    padding: 2%;
+    
+
+}
+
+
+#c
+    {
+        font-weight: 600;
+        
+    
+    }
+
+
+#c2
+    {
+        padding-top: 5%;
+        color: #28839e;
+        font-weight: 600;
+    
+    
+    }
+
+.numbercircle
+{
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    
+    background: #fff;
+    border: 1px solid #666;
+    color: #666;
+    text-align: center;
+    
+    font-size: 14px;
+    
+    
+}
+
+
+
+@media only screen and (max-width: 480px)
+{
+    
+            
+            
+    
+    
+            #overlay
+            {
+                background-image: url(../images/mobile-banner2.png);
+                background-repeat: no-repeat;
+                background-attachment:local;
+                background-position:;
+                background-size: cover;
+                padding-bottom: 5%;
+                height: 460px;
+
+
+
+            }  
+    
+    
+    
+    
+            #wholebody
+                {
+                    width: 100%;
+                    align-content: center;
+                    font-family: 'Lato', sans-serif;
+
+                }
+    
+    
+    
+    
+            #clariac
+                {
+                    padding-top: 74%; 
+                    background-size: cover;
+
+                }
+
+        #clariacinner
+                {    
+                    background-color: rgba(0,0,0,0.5); 
+                    width: 100%; 
+                    padding: 1px;
+                    margin-top: 3px;
+
+                }
+    
+        #flextext1
+                {
+                    color: white; 
+                    font-size: 18px; 
+                    font-weight: 300; 
+                    margin-bottom: 10px; 
+                    padding-top: 2%; 
+                    padding-left: 2%
+
+                }
+
+                #flextext2
+                {
+                    color: white; 
+                    font-size: 23px; 
+                    padding-left: 2%;
+
+                }
+                #backlinkscon
+                {
+
+                padding-top: 5%;
+                text-align: center;
+
+
+                }
+                #social
+                {
+                    text-align: center;
+                    padding-left: 20%;
+
+
+                }
+                #aboutspeaker
+            {
+                text-align: center;
+
+
+
+            }
+                #medgenomelogo
+            {
+            max-width: 90px;
+            }
+
+
+            #clarialogo
+            {
+                max-width: 90px;
+            }
+        
+            #learn
+            {
+                text-align: center;
+            }
+            
+            #summ
+            {
+                text-align: center;
+            }
+
+
+
+
+    
+    
+}
+
+

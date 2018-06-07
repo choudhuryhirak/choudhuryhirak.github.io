@@ -394,6 +394,25 @@ Primary use:
   .p-r-15-md {padding-right: 15px;}
 
   .w-full-md {width: 100%;}
+    
+    .respon1 
+    {
+        font-size: 20px;
+      }
+    
+#leadText
+    {
+        font-size: 16px;
+    }
+#paratext
+    {
+        
+        padding-left: 20%;
+        padding-right: 20%;
+        
+}
+    
+    
   /*---------------------------------------------*/
 
 }
@@ -419,11 +438,29 @@ Primary use:
   .p-r-15-sm {padding-right: 15px;}
 
   .w-full-sm {width: 100%;}
+    
+    
+    
+    
+.respon1 
+    {
+        font-size: 20px;
+      }
+    
+#leadText
+    {
+        font-size: 16px;
+    }
+#paratext
+    {
+        
+        padding-left: 20%;
+        padding-right: 20%;
+        
+}
 
   /*---------------------------------------------*/
-  .respon1 {
-    font-size: 45px;
-  }
+  
   
 }
 
@@ -440,14 +477,35 @@ Primary use:
   .m-r-15-ssm {margin-right: 15px;}
 
   .p-0-ssm {padding: 0;}
-  .p-lr-0-ssm {padding-left: 0; padding-right: 0;}
-  .p-lr-15-ssm {padding-left: 15px; padding-right: 15px;}
-  .p-l-0-ssm {padding-left: 0;}
-  .p-r-0-ssm{padding-right: 0;}
-  .p-l-15-ssm {padding-left: 15px;}
-  .p-r-15-ssm {padding-right: 15px;}
+  .p-lr-0-ssm {padding-left: 10%; padding-right: 10%;}
+  .p-lr-15-ssm {padding-left: 10%; padding-right: 10%;}
+  .p-l-0-ssm {padding-left: 5%;}
+  .p-r-0-ssm{padding-right: 5%;}
+  .p-l-15-ssm {padding-left: 10%;}
+  .p-r-15-ssm {padding-right: 10%x;}
 
   .w-full-ssm {width: 100%;}
+   
+.respon1 {
+    font-size: 19px;
+  }
+    
+#leadText
+    {
+        font-size: 15px;
+    }
+#paratext
+    {
+        
+        padding-left: 22%;
+        padding-right: 22%;
+        
+}
+    
+  
+    
+    
+    
   /*---------------------------------------------*/
 
 }
