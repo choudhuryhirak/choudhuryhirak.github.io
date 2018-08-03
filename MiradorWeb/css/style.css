@@ -4,6 +4,23 @@ body {
     overflow-x: hidden;
 }
 
+#logonav
+{
+    position: fixed;
+    top: 5%;
+    bottom: 0;
+    left: 90%;
+    right: 0;
+    z-index: 55
+    
+    
+}
+
+#logonav > img 
+{
+    max-width: 150px;
+}
+
 .mverlay {
     height: 100%;
     width: 0;
@@ -16,6 +33,9 @@ body {
     overflow-x: hidden;
     transition: 0.5s;
 }
+
+
+
 
 .mverlay-content {
     position: relative;
@@ -376,6 +396,87 @@ body {
 {
     margin-left: 10%
 }
+
+.caro-img > img
+{
+   width: 355px;
+    height: 355px;
+}
+
+
+/*theme page*/
+
+
+
+#themeheader1
+{
+    height: 100vh;
+    position: relative;
+    padding-right: 2%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    padding-left: 40%;
+    overflow: hidden;
+   
+}
+
+#themeheader2
+{
+    height: 100vh;
+    position: relative;
+    padding-left: 2%;
+    padding-top: 25%;
+    padding-bottom: 20%;
+    padding-right: 10%;
+   
+}
+
+.overfixed
+{
+    height: 580px;
+    width: 580px;
+    background-color: white;
+    background-image:url(../exports/IMG_0003.png);
+    background-repeat: no-repeat;
+    background-position:200px -100px;
+    background-size:contain;    
+    position: absolute;
+    background-attachment: fixed;
+    padding: 10%;
+    
+}
+
+.overfixed2
+{
+    height: 540px;
+    width: 480px;
+    background-color: white;
+   background-image:url(../exports/rail.jpg);
+    background-repeat: no-repeat;
+    background-position:700px -100px;
+    background-size:90%;
+    position: absolute;
+    background-attachment: fixed;
+    padding: 10%;
+    background-color: lightgrey;
+    padding: 10%;
+    
+}
+
+
+#themetitlecontainer
+{
+    width: 1200px;
+    height: 260px;
+    background: purple;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 
 
 
