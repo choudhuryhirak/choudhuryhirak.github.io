@@ -332,7 +332,8 @@ body {
 
 #contactbox
 {
-    padding: 2%;    
+    padding: 2%;
+    
     border-radius: 12px;
     border: solid 1px #F9F6F6;
     padding-bottom: 5%;
@@ -373,8 +374,7 @@ body {
 
 #foocolumn
 {
-    margin-left: 10%;
-    margin-right: 15%;
+    margin-left: 10%
 }
 
 

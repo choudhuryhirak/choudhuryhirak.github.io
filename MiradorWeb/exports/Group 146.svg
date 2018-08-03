@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.891 37.892">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_146" data-name="Group 146" transform="translate(-1484 -12305)">
+    <g id="noun_Map_32150" transform="translate(1492.612 12315.334)">
+      <path id="Path_6" data-name="Path 6" class="cls-1" d="M0,32l6.245,3.747V49.486L0,45.739ZM13.739,45.739l6.245,3.747V35.747L13.739,32ZM7.494,49.486l5-3.747V32l-5,3.747Z" transform="translate(0 -32)"/>
+    </g>
+    <g id="Ellipse_10" data-name="Ellipse 10" class="cls-2" transform="translate(1484 12305)">
+      <circle class="cls-3" cx="18.946" cy="18.946" r="18.946"/>
+      <circle class="cls-4" cx="18.946" cy="18.946" r="18.446"/>
+    </g>
+  </g>
+</svg>

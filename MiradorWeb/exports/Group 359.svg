@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.891 37.892">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_359" data-name="Group 359" transform="translate(-1407 -12449)">
+    <g id="noun_Phone_1818627" transform="translate(1416 12458)">
+      <g id="Group_147" data-name="Group 147">
+        <path id="Path_7" data-name="Path 7" class="cls-1" d="M18.92,1.618,14.75,5.726l.809.809a1.353,1.353,0,0,1,0,1.867L8.4,15.559a1.353,1.353,0,0,1-1.867,0l-.809-.809L1.618,18.92C7.157,24.46,24.46,7.157,18.92,1.618Zm-17.8,16.8,4.17-4.108-1.12-1.12L0,17.3Zm17.3-17.3L14.315,5.29l-1.12-1.12L17.3,0Z"/>
+      </g>
+    </g>
+    <g id="Ellipse_11" data-name="Ellipse 11" class="cls-2" transform="translate(1407 12449)">
+      <circle class="cls-3" cx="18.946" cy="18.946" r="18.946"/>
+      <circle class="cls-4" cx="18.946" cy="18.946" r="18.446"/>
+    </g>
+  </g>
+</svg>
