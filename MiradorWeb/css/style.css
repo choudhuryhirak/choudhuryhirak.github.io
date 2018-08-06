@@ -6,12 +6,13 @@ body {
 
 #logonav
 {
-    position: fixed;
+    width: 200px;
+    height: 40px;
     top: 5%;
     bottom: 0;
-    left: 90%;
+    left: 85%;
     right: 0;
-    z-index: 55
+    z-index: 55;
     
     
 }
@@ -104,7 +105,7 @@ body {
 
 .card-body
 {
-   margin: auto;
+   
    left: 0;
    right: 0;
    border-radius: 5px;
