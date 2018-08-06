@@ -102,6 +102,20 @@ body {
     
 }
 
+.card-body
+{
+   text-align: justify;
+   margin: auto;
+   left: 0;
+   right: 0;
+   border-radius: 5px;
+   box-shadow: 0 0px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+   
+}
+
+
+
+
 
 
 #why-us
@@ -399,8 +413,7 @@ body {
 
 .caro-img > img
 {
-   width: 355px;
-    height: 355px;
+   
 }
 
 
