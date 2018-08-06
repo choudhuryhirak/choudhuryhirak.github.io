@@ -569,11 +569,6 @@ body {
     bottom: 0;
     width: inherit;
     height: inherit;
-    
-    
-    
-    
-   
 }
 
 
@@ -587,8 +582,17 @@ body {
     height: 400px;
 }
 
+#contactsub
+{
+    font-size: 22px;
+}
 
-
+#contacttitle
+{
+    font-family: Playfair Display, serif;
+    font-weight: 600;
+    font-size: 36px;
+}
 
 
 
