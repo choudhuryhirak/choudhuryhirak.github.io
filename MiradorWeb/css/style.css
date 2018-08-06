@@ -104,7 +104,6 @@ body {
 
 .card-body
 {
-   text-align: justify;
    margin: auto;
    left: 0;
    right: 0;
@@ -113,6 +112,10 @@ body {
    
 }
 
+.card-text
+{
+    text-align: justify;
+}
 
 
 
@@ -524,10 +527,11 @@ body {
 .tile
 {
     position: relative;
-    overflow: hidden;
-    max-width: 600px;
-    max-height: auto;
-    padding-bottom: 1%;
+    overflow:hidden;
+    height: 500px;
+    
+    
+
 }
 
 
@@ -538,18 +542,50 @@ body {
     max-width: 900px;
     max-height: auto;
     padding-bottom: 1%;
+    
 }
 
 
-.tile > img
+.tile-img
 {
-   
-    
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
     
     
 }
 
+.tile-img > img
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: inherit;
+    height: inherit;
+    
+    
+    
+    
+   
+}
 
+
+
+
+
+
+#contactmodal
+{
+    background-color: #F9F6F6;
+    height: 400px;
+}
 
 
 

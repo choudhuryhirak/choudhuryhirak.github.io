@@ -42,6 +42,31 @@ $(document).ready(function(){
     )
     
     
+    var tileanimtl;
+    $('.tile, .tile2').hover(
+    
+        function()
+        {
+            tileanimtl = new TimelineMax();
+            tileanimtl.to( $(this).find('.tile-img > img'), 2, {scaleX:1.08, scaleY:1.08, ease:Power1.easeInOut}, 0.2);
+            
+            
+            
+        },
+        function()
+        {
+            tileanimtl.reverse();
+        }
+    
+    
+    
+    
+    
+    
+    
+    )
+    
+    
     
     
     
