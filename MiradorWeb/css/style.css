@@ -437,6 +437,115 @@ body {
    
 }
 
+
+#themeparent
+{
+    font-family: Playfair display serif;
+    font-size: 90px;
+    letter-spacing: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+
+
+
+
+/*
+#themeshome1
+{
+    height: 100vh;
+    position: relative;
+    padding-right: 2%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    padding-left: 40%;
+    overflow: hidden;
+    //background: grey
+}
+
+
+#themeshome2
+{
+    height: 100vh;
+    position: relative;
+    padding-right: 2%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    padding-left: 40%;
+    overflow: hidden;
+    background: grey;
+    
+}
+
+
+#themeshome3
+{
+    height: 600px;
+    width: 450px;
+    position: relative;
+    margin-right: 150%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 10%;
+    overflow: hidden;
+    background: grey;
+}
+
+
+
+
+.overfixedth1
+{   
+    height: 580px;
+    width: 580px;
+    background-color: white;
+    background-image:url(../exports/theme1.png);
+    background-repeat: no-repeat;
+    background-position:left top;
+    background-attachment: fixed;
+    
+    
+}
+
+.overfixedth2
+{   
+    height: 580px;
+    width: 580px;
+    background-color: white;
+    background-image:url(../exports/theme2.png);
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-attachment: fixed;
+   
+    
+}
+
+.overfixedth3
+{   
+    height: inherit;
+    width: inherit;
+    background-image:url(../exports/theme3.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right 70px top;
+    
+    
+    
+}
+*/
+
+
+
+
+
+
+
+
 #themeheader2
 {
     height: 100vh;
@@ -447,6 +556,8 @@ body {
     padding-right: 10%;
    
 }
+
+
 
 .overfixed
 {
@@ -594,6 +705,14 @@ body {
     font-weight: 600;
     font-size: 36px;
 }
+
+
+
+
+
+
+
+
 
 
 
