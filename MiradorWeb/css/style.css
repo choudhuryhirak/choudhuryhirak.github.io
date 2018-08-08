@@ -314,12 +314,14 @@ body {
 
 #mdm21
 {
-    text-align: left;
+    background-image: url(../exports/livingnature.png)
+        
+    
 }
 
 #mdm22
 {
-    text-align: left;
+    
 }
 
 
@@ -792,23 +794,45 @@ body {
 
 #journey
 {
-    padding: 10% 0 10% 0;
-    height: 70vh;
+    padding: 10% 0 30% 0;
+    
+    
 }
 
 
 #journeyimg
 {
     background-image: url(../exports/jimage.png);
-    background-attachment: fixed;
-    background-repeat: no-repeatl;
+    background-repeat: no-repeat;
     background-size: contain;
-    height: inherit;
+    background-position: bottom;
+    height: 400px;
+    position: relative;
+    
 }
 
+.journeytitle
+{
+    
+    position: absolute;
+    z-index: 0;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    
+}
 
-
-
+.journeytitle > p
+{
+    color: white;
+    font-family: Playfair Display, serif;
+    font-size: 100px;
+    text-transform: capitalize;
+    font-weight: 800;
+    text-align: center;
+}
 
 
 
