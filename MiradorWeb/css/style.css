@@ -450,11 +450,6 @@ body {
 }
 
 
-
-
-
-
-
 /*
 #themeshome1
 {
@@ -632,9 +627,41 @@ body {
     bottom: 0;
     
     -webkit-text-stroke: 1px white;
-  -webkit-text-fill-color: rgba(0,0,0,0.1);
+    -webkit-text-fill-color: rgba(0,0,0,0.1);
     z-index: 32;
 }
+
+
+.tptitlecontainer
+{
+    position: absolute;
+    width: 600px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 33;
+    
+    
+}
+
+.tptitlecontainer > p
+
+{
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
 
 .tile
 {
