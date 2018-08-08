@@ -297,16 +297,38 @@ body {
 
 
 
+
+
+
 #mdmatters1
 {
     min-height: 50vh;
     
 }
 
+#mdmatters2
+{
+    padding: 0 10% 0 10%;
+}
+
+
+#mdm21
+{
+    text-align: left;
+}
+
+#mdm22
+{
+    text-align: left;
+}
+
+
+
 #subtitle
 {
     font-family: Playfair Display, serif;
-    font-size: 30px;   
+    font-size: 30px;
+    font-weight: 600;
     
 }
 
@@ -752,6 +774,37 @@ body {
 }
 
 
+/*about page*/
+
+#brandphilosophy > .container > p
+{
+    text-align: center;
+    font-family: Playfair Display, serif;
+    font-size: 38px;
+    text-transform: uppercase;
+    
+    
+    font-weight: 700;
+    letter-spacing: 16px;
+    
+    
+}
+
+#journey
+{
+    padding: 10% 0 10% 0;
+    height: 70vh;
+}
+
+
+#journeyimg
+{
+    background-image: url(../exports/jimage.png);
+    background-attachment: fixed;
+    background-repeat: no-repeatl;
+    background-size: contain;
+    height: inherit;
+}
 
 
 
