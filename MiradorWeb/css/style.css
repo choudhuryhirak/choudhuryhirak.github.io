@@ -27,6 +27,7 @@ body {
 }
 
 .mverlay {
+    
     height: 100%;
     width: 0;
     position: fixed;
@@ -76,6 +77,239 @@ body {
     right: 45px;
     font-size: 60px;
 }
+
+
+#Miradorlogo
+
+{
+    position: absolute;
+    width: 180px;
+    top: 0;
+    right: 25px;
+    left: 40%;
+    margin-top: 450px;
+    
+}
+
+#logo-banner
+{
+    
+    width: 100%;
+}
+
+
+
+.slider-anim
+{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    left: 150px;
+    background-color: white;
+    opacity: 0;
+    height: inherit;
+    
+    
+}
+
+
+
+
+
+
+#slidercontent1 > img
+{
+   width: 100%; 
+    height: 100vh;
+    object-fit: contain;
+    
+    
+}
+
+#slidercontent2 > img
+{
+    
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+}
+
+#slidercontent3 > img
+{
+   width: 100%; 
+    height: 100vh;
+    object-fit: contain;
+    
+}
+#slidercontent4 > img
+{
+    
+   width: 100%; 
+    height: 100vh;
+    object-fit: contain;
+}
+
+
+
+
+#slidercopy1
+{
+    padding: 1%;
+    background: rgba(46,175,228,0.9);
+    position: absolute;
+    width: max-content;
+    z-index: 15;
+    margin: auto;
+    top: 68%;
+    right: 25%;
+    left: 0;
+    margin-left: -45px;
+    
+    
+}
+
+#slidercopy1 > p:nth-child(odd)
+{
+    font-family: Playfair Display, serif;
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    
+}
+
+#slidercopy1 > p:nth-child(even)
+{
+    
+    font-family: Playfair Display, serif;
+    font-size: 48px;
+    color: white;
+    font-weight: 500;
+}
+.slider-anim:nth-child(1n) .slidercopy1{
+    
+}
+
+.slider-anim:nth-child(2n) .slidercopy1{
+    
+}
+
+
+#slidercopy2
+{
+    padding: 1%;
+    background: rgba(221,162,0,0.9);
+    position: absolute;
+    width: max-content;
+    min-width: 240px;
+    z-index: 15;
+    margin: auto;
+    top: 68%;
+    right: 25%;
+    left: 0;
+    margin-left: -45px;
+    
+    
+}
+
+#slidercopy2 > p:nth-child(odd)
+{
+    font-family: Playfair Display, serif;
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    
+}
+
+#slidercopy2 > p:nth-child(even)
+{
+    
+    font-family: Playfair Display, serif;
+    font-size: 48px;
+    color: white;
+    font-weight: 500;
+}
+
+
+
+#slidercopy3
+{
+    padding: 1%;
+    background: rgba(142,64,0,0.9);
+    position: absolute;
+    width: max-content;
+    z-index: 15;
+    margin: auto;
+    top: 68%;
+    right: 25%;
+    left: 0;
+    margin-left: -45px;
+    
+    
+}
+
+
+
+
+
+#slidercopy3 > p:nth-child(odd)
+{
+    font-family: Playfair Display, serif;
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    
+}
+
+#slidercopy3 > p:nth-child(even)
+{
+    
+    font-family: Playfair Display, serif;
+    font-size: 48px;
+    color: white;
+    font-weight: 500;
+}
+
+
+
+
+
+#slidercopy4
+{
+    padding: 1%;
+    background: rgba(209,72,61, 0.9);
+    position: absolute;
+    width: max-content;
+    z-index: 15;
+    margin: auto;
+    top: 68%;
+    right: 25%;
+    left: 0;
+    margin-left: -45px;
+    
+    
+}
+
+#slidercopy4 > p:nth-child(odd)
+{
+    font-family: Playfair Display, serif;
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    
+}
+
+#slidercopy4 > p:nth-child(even)
+{
+    
+    font-family: Playfair Display, serif;
+    font-size: 48px;
+    color: white;
+    font-weight: 500;
+}
+
+
+
+
 
 #head-mverlay
 {
@@ -132,45 +366,6 @@ body {
 }
 
 
-
-.slider-anim
-{
-    position: absolute;
-    z-index: 2;
-    background-color: white;
-    opacity: 0;
-    height: inherit;
-    
-    
-}
-
-#slidercontent1 > img
-{
-    max-width: 900px;
-    
-    
-    
-}
-
-#slidercontent2 > img
-{
-    max-width: 900px;
-    
-    
-}
-
-#slidercontent3 > img
-{
-    max-width: 900px;
-    
-    
-}
-#slidercontent4 > img
-{
-    max-width: 900px;
-    
-    
-}
 
 #taglineland
 {
@@ -835,6 +1030,260 @@ body {
 }
 
 
+
+@media screen and (max-width: 450px)
+
+{
+    
+    #Miradorlogo > a > img {
+        
+        
+    position: absolute;
+    max-width: 50%;
+    z-index: 78;
+    margin: auto;
+    top: 0;
+    right: 68%;
+    left: 0;
+    bottom: 0;
+    
+    
+    
+}
+    
+    
+    #logo-banner
+{
+    
+    width: 100%;
+}
+
+
+
+.slider-anim
+{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    opacity: 0;
+    
+    
+    
+}
+
+
+
+
+
+
+#slidercontent1 > img
+{
+   width: 100%; 
+    height: 60vh;
+   object-fit: contain;
+    
+    
+}
+
+#slidercontent2 > img
+{
+    
+    width: 100%;
+    height: 60vh;
+   object-fit: contain;
+}
+
+#slidercontent3 > img
+{
+   width: 100%; 
+    height: 60vh;
+   object-fit: contain;
+    
+}
+#slidercontent4 > img
+{
+    
+   width: 100%;
+    height: 60vh;
+   object-fit: contain;
+}
+
+
+
+
+#slidercopy1
+{
+    padding: 1%;
+    background: rgba(46,175,228,0.9);
+    position: absolute;
+    width: max-content;
+    min-width: 240px;
+    z-index: 15;
+    margin: auto;
+    top: 300px;
+    right: 0;
+    left: 0;
+   
+    
+    
+}
+
+#slidercopy1 > p:nth-child(odd)
+    
+{
+    text-align: center;
+    font-family: Playfair Display, serif;
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    
+}
+
+#slidercopy1 > p:nth-child(even)
+{
+    text-align: center;
+    font-family: Playfair Display, serif;
+    font-size: 48px;
+    color: white;
+    font-weight: 500;
+}
+
+
+
+#slidercopy2
+{
+    padding: 1%;
+    background: rgba(221,162,0,0.9);
+    position: absolute;
+    width: max-content;
+    min-width: 240px;
+    z-index: 15;
+   
+    margin: auto;
+     top: 300px;
+    
+    right: 0;
+    left: 0;
+   
+    
+    
+}
+
+#slidercopy2 > p:nth-child(odd)
+{
+    text-align: center;
+    font-family: Playfair Display, serif;
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    
+}
+
+#slidercopy2 > p:nth-child(even)
+{
+    text-align: center;
+    font-family: Playfair Display, serif;
+    font-size: 48px;
+    color: white;
+    font-weight: 500;
+}
+
+
+
+#slidercopy3
+{
+    padding: 1%;
+    background: rgba(142,64,0,0.9);
+    position: absolute;
+    width: max-content;
+    min-width: 240px;
+    z-index: 15;
+    
+    margin: auto;
+    top: 300px;
+    
+    right:0;
+    left: 0;
+   
+    
+    
+}
+
+
+
+
+
+#slidercopy3 > p:nth-child(odd)
+{
+    text-align: center;
+    font-family: Playfair Display, serif;
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    
+}
+
+#slidercopy3 > p:nth-child(even)
+{
+    text-align: center;
+    font-family: Playfair Display, serif;
+    font-size: 48px;
+    color: white;
+    font-weight: 500;
+}
+
+
+
+
+
+#slidercopy4
+{
+    padding: 1%;
+    background: rgba(209,72,61, 0.9);
+    position: absolute;
+    width: max-content;
+    min-width: 240px;
+    z-index: 15;
+   
+    margin: auto;
+     top: 300px;
+    
+    right: 0;
+    left: 0;
+    
+    
+    
+}
+
+#slidercopy4 > p:nth-child(odd)
+{
+    text-align: center;
+    font-family: Playfair Display, serif;
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    
+}
+
+#slidercopy4 > p:nth-child(even)
+{
+    text-align: center;
+    font-family: Playfair Display, serif;
+    font-size: 48px;
+    color: white;
+    font-weight: 500;
+}
+    
+    
+    
+    
+
+}
 
 
 
