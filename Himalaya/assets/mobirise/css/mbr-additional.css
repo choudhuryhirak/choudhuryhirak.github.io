@@ -1400,8 +1400,6 @@ body {
   color: #ffffff;
 }
 .cid-r8BEdZr2WX {
-  padding-top: 45px;
-  padding-bottom: 45px;
   background-color: #ffffff;
 }
 .cid-r8BEdZr2WX .content-slider {
@@ -1653,9 +1651,7 @@ body {
   overflow: hidden;
   padding: 0;
 }
-.cid-r8BEdZr2WX .carousel-inner {
-  height: 100%;
-}
+
 .cid-r8BEdZr2WX .slider-fullscreen-image {
   height: 100%;
   background: transparent !important;
