@@ -37,6 +37,19 @@ html {
 
 /*custom css*/
 
+#maincontent
+{
+    font-size: 40px;
+    color: black;
+}
+
+#maintag
+{
+    font-size: 50px;
+    color: white;
+}
+
+
 
 .cid-r8BEdZr2WX .carousel-inner 
 {
@@ -58,7 +71,7 @@ html {
     z-index: 1;
     position: absolute;
     bottom: 0;
-    left: -15%;
+    left: 0;
 }
 
 
@@ -166,21 +179,21 @@ padding: 2%;}
 
 
 
-@media (min-width:576px) {
+@media (min-width:576px) and (max-width:768px) {
 	.container {
-		max-width: 540px
+		max-width: 1920px
 	}
 }
 
-@media (min-width:768px) {
+@media (min-width:768px) and (max-width: 992px) {
 	.container {
-		max-width: 720px
+		max-width: 1920px
 	}
 }
 
-@media (min-width:992px) {
+@media (min-width:992px) and (max-width:1200px) {
 	.container {
-		max-width: 960px
+		max-width: 1920px
 	}
 }
 
@@ -188,6 +201,20 @@ padding: 2%;}
 	.container {
 		max-width: 1920px
 	}
+    
+        #maincontent
+    {
+        font-size: 32px;
+        color: black;
+    }
+    
+        #maintag
+    {
+        font-size: 40px;
+        color: white;
+    }
+    
+    
     
     #logoimg
     {
