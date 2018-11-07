@@ -177,9 +177,35 @@ overflow-y:hidden !important;
 padding: 2%;}
 
 
-
-
-@media (min-width:576px) and (max-width:768px) {
+@media (min-width: 350px) and (max-width:576px)
+{
+    .cid-r8BFvYFSD2 {
+  z-index: 1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgb(255,109,0);
+}
+    
+    
+    
+    
+    #bannerad
+{
+    z-index: 0;
+    position: relative;
+    background-image: url(../../../assets/images/cta-action-1920x142.png);
+    background-attachment: scroll;
+    background-size: cover;
+    background-color: linear-gradient(to right, red , yellow);
+}
+    
+    
+    
+    
 	.container {
 		max-width: 1920px;
 	}
@@ -187,13 +213,14 @@ padding: 2%;}
     
      #maincontent
     {
-        font-size: 32px;
+        font-size: 18px;
         color: black;
     }
     
         #maintag
     {
-        font-size: 40px;
+        padding-top: 5%;
+        font-size: 26px;
         color: white;
     }
     
@@ -201,7 +228,7 @@ padding: 2%;}
     
     #logoimg
     {
-        width: 220px;
+        width: 180px;
     }
     
     #playkey
@@ -226,8 +253,8 @@ padding: 2%;}
         position: absolute;
         top: 7%;
         left: 0;
-        margin-left: -3%;
-        margin-top: 0; 
+        margin-left: 2%;
+        margin-top: 0px; 
     }
 
 
@@ -238,12 +265,112 @@ padding: 2%;}
         position: absolute;
         top: 0;
         left: 0;
-        margin-left: -105%;
+        margin-left: -284%;
+        margin-top: 0px;
+    }
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+@media (min-width:576px) and (max-width:768px) {
+    
+    #bannerad
+{
+    z-index: 0;
+    position: relative;
+    background-image: url(../../../assets/images/cta-action-1920x142.png);
+    background-attachment: scroll;
+    background-size: cover;
+    background-color: linear-gradient(to right, red , yellow);
+}
+    
+    
+    
+    
+	.container {
+		max-width: 1920px;
+	}
+    
+    
+     #maincontent
+    {
+        font-size: 18px;
+        color: black;
+    }
+    
+        #maintag
+    {
+        padding-top: 5%;
+        font-size: 26px;
+        color: white;
+    }
+    
+    
+    
+    #logoimg
+    {
+        width: 180px;
+    }
+    
+    #playkey
+    {
+        position: absolute;
+        z-index: 5;
+        top: 40%;
+        right: 0;
+        left: 34%;
+        bottom: 0;
+
+    }
+    
+    #playimg
+    {
+        width: 60px;
+    }
+
+    #logokey
+    {
+        z-index: 4;
+        position: absolute;
+        top: 7%;
+        left: 0;
+        margin-left: 2%;
+        margin-top: -48px; 
+    }
+
+
+
+    #fluidkey
+    {
+        z-index: 3;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: -175%;
         margin-top: -20px;
     }
 }
 
 @media (min-width:768px) and (max-width: 992px) {
+    
+     #bannerad
+{
+    z-index: 0;
+    position: relative;
+    background-image: url(../../../assets/images/cta-action-1920x142.png);
+    background-attachment: scroll;
+    background-size: cover;
+    background-color: linear-gradient(to right, red , yellow);
+}
 	
     .container {
 		max-width: 1920px;
