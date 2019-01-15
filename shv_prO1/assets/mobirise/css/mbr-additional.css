@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
+@import url(https://fonts.googleapis.com/css?family=Encode+Sans+Expanded:100,200,300,400,500,600,700,800,900);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
+
 
 
 
@@ -1385,12 +1388,12 @@ body {
 }
 .cid-reokWRT3EE .navbar {
   padding: .5rem 0;
-  background: #4650d6;
+  background: white;
   transition: none;
   min-height: 77px;
 }
 .cid-reokWRT3EE .navbar-dropdown.bg-color.transparent.opened {
-  background: #4650d6;
+  background: white;
 }
 .cid-reokWRT3EE a {
   font-style: normal;
@@ -1517,6 +1520,7 @@ body {
 .cid-reokWRT3EE .navbar.navbar-short {
   min-height: 60px;
   transition: all .2s;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, .12), 0 7px 10px -5px rgba(0, 0, 0, .15);
 }
 .cid-reokWRT3EE .navbar.navbar-short .navbar-toggler-right {
   top: 20px;
@@ -1778,6 +1782,10 @@ body {
 .cid-reokYADlFh {
   background-image: url("../../../assets/images/what-fiction-gets-wrong-about-ai-1400x645.png");
 }
+.cid-reokYADlFi {
+  background-image: url("../../../assets/images/back-pele-1400x547.png");
+}
+
 .cid-repikChJQm {
   padding-top: 60px;
   padding-bottom: 0px;
@@ -2059,3 +2067,17 @@ body {
     justify-content: center;
   }
 }
+
+
+/*new for pele*/
+
+
+
+@ -1,6 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
+@import url(https://fonts.googleapis.com/css?family=Encode+Sans+Expanded:100,200,300,400,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
+
+
