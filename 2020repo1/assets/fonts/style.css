@@ -1,0 +1,10 @@
+@font-face {
+   font-family: 'SFProDisplay-Medium';
+   font-display: swap;
+   src: url('SFProDisplay-Medium/font.ttf');
+}
+@font-face {
+   font-family: 'SFProDisplay-Regular';
+   font-display: swap;
+   src: url('SFProDisplay-Regular/font.ttf');
+}
